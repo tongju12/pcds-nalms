@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<config name="nalms-kfe">
+   <component name="RTDSK0">
+      <component name="RTDSK0 VCG">
+         <pv name="RTDSK0:VGC:1:POS_STATE_RBV">
+            <description>Valve position</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:STATE_RBV">
+            <description>valve state</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:FORCE_OPN_RBV">
+            <description>Epics Command to force open the valve in override mode</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:OVRD_ON_RBV">
+            <description>Epics Readback on Override mode</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:EXT_ILK_OK_RBV">
+            <description>External interlock ok</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:OPN_OK_RBV">
+            <description>Valve is OK to Open interlock</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERROR_RBV">
+            <description>Error Present</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:AT_VAC_RBV">
+            <description>at vacuum setpoint is reached</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERR_DifPres_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERR_SP_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERR_Ext_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:MPS_OK_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:AT_VAC_SP_RBV">
+            <description>AT VAC Set point value</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="RTDSK0 GPI">
+         <pv name="RTDSK0:GPI:1:STATE_RBV">
+            <description>state of the gauge</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:PRESS_RBV">
+            <description>gauge pressure reading</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:VAC_SP_RBV">
+            <description>At vacuum setpoint for all gauges</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:PRO_SP_RBV">
+            <description>Protection setpoint for ion gauges at which the gauge turns off</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:SP_HYS_RBV">
+            <description>Protection setpoint hysteresis</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="RTDSK0 GCC">
+         <pv name="RTDSK0:GCC:1:STATE_RBV">
+            <description>state of the gauge</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GCC:1:PRESS_RBV">
+            <description>gauge pressure reading</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GCC:1:PRO_SP_RBV">
+            <description>Protection setpoint for ion gauges at which the gauge turns off</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GCC:1:SP_HYS_RBV">
+            <description>Protection setpoint hysteresis</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="RTDSK0 PIP">
+         <component name="PIP 1">
+            <pv name="RTDSK0:PIP:1:STATE_RBV">
+               <description>Valve state</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:ILK_OK_RBV">
+               <description>interlock ok</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:ERROR_RBV">
+               <description>Error Present</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:HV_SW_RBV">
+               <description>hi voltage switch</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:Auto_On_RBV">
+               <description>Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:OVRD_ON_RBV">
+               <description>Regional Override Status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:AT_VAC_SP_RBV">
+               <description>Protection/At Vacuum Setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:PRESS_RBV">
+               <description>pressure reading</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="PIP 2">
+            <pv name="RTDSK0:PIP:2:STATE_RBV">
+               <description>Valve state</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:ILK_OK_RBV">
+               <description>interlock ok</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:ERROR_RBV">
+               <description>Error Present</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:HV_SW_RBV">
+               <description>hi voltage switch</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:Auto_On_RBV">
+               <description>Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:OVRD_ON_RBV">
+               <description>Regional Override Status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:AT_VAC_SP_RBV">
+               <description>Protection/At Vacuum Setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:PRESS_RBV">
+               <description>pressure reading</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="PIP 3">
+            <pv name="RTDSK0:PIP:3:STATE_RBV">
+               <description>Valve state</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:ILK_OK_RBV">
+               <description>interlock ok</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:ERROR_RBV">
+               <description>Error Present</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:HV_SW_RBV">
+               <description>hi voltage switch</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:Auto_On_RBV">
+               <description>Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:OVRD_ON_RBV">
+               <description>Regional Override Status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:AT_VAC_SP_RBV">
+               <description>Protection/At Vacuum Setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:PRESS_RBV">
+               <description>pressure reading</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+      </component>
+   </component>
+</config>

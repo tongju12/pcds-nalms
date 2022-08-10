@@ -9,8 +9,8 @@
 #
 # TS 05/25/18
 
-fi = open('GMDXGMD.csv', 'r')
-fo = open('GMDXGMD.yaml', 'w')
+fi = open('/Users/fmurgia/Documents/SLAC/pcds-nalms/Spreadsheet/RTDSK0Vac.csv', 'r')
+fo = open('/Users/fmurgia/Documents/SLAC/pcds-nalms/Spreadsheet/RTDSK0Vac.yaml', 'w')
 
 global padding
 

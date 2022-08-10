@@ -1,0 +1,192 @@
+"RTDSK0":
+    "RTDSK0 VCG":
+      - pv: "RTDSK0:VGC:1:POS_STATE_RBV"
+        description: "Valve position"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:STATE_RBV"
+        description: "valve state"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:FORCE_OPN_RBV"
+        description: "Epics Command to force open the valve in override mode"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:OVRD_ON_RBV"
+        description: "Epics Readback on Override mode"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:EXT_ILK_OK_RBV"
+        description: "External interlock ok"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:OPN_OK_RBV"
+        description: "Valve is OK to Open interlock"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:ERROR_RBV"
+        description: "Error Present"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:AT_VAC_RBV"
+        description: "at vacuum setpoint is reached"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:ERR_DifPres_RBV"
+        description: ""
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:ERR_SP_RBV"
+        description: ""
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:ERR_Ext_RBV"
+        description: ""
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:MPS_OK_RBV"
+        description: ""
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:VGC:1:AT_VAC_SP_RBV"
+        description: "AT VAC Set point value"
+        latching: TRUE
+        delay: 0
+    "RTDSK0 GPI":
+      - pv: "RTDSK0:GPI:1:STATE_RBV"
+        description: "state of the gauge"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GPI:1:PRESS_RBV"
+        description: "gauge pressure reading"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GPI:1:VAC_SP_RBV"
+        description: "At vacuum setpoint for all gauges"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GPI:1:PRO_SP_RBV"
+        description: "Protection setpoint for ion gauges at which the gauge turns off"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GPI:1:SP_HYS_RBV"
+        description: "Protection setpoint hysteresis"
+        latching: TRUE
+        delay: 0
+    "RTDSK0 GCC":
+      - pv: "RTDSK0:GCC:1:STATE_RBV"
+        description: "state of the gauge"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GCC:1:PRESS_RBV"
+        description: "gauge pressure reading"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GCC:1:PRO_SP_RBV"
+        description: "Protection setpoint for ion gauges at which the gauge turns off"
+        latching: TRUE
+        delay: 0
+      - pv: "RTDSK0:GCC:1:SP_HYS_RBV"
+        description: "Protection setpoint hysteresis"
+        latching: TRUE
+        delay: 0
+    "RTDSK0 PIP":
+        "PIP 1":
+          - pv: "RTDSK0:PIP:1:STATE_RBV"
+            description: "Valve state"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:ILK_OK_RBV"
+            description: "interlock ok"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:ERROR_RBV"
+            description: "Error Present"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:HV_SW_RBV"
+            description: "hi voltage switch"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:Auto_On_RBV"
+            description: "Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:OVRD_ON_RBV"
+            description: "Regional Override Status"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:AT_VAC_SP_RBV"
+            description: "Protection/At Vacuum Setpoint"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:1:PRESS_RBV"
+            description: "pressure reading"
+            latching: TRUE
+            delay: 0
+        "PIP 2":
+          - pv: "RTDSK0:PIP:2:STATE_RBV"
+            description: "Valve state"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:ILK_OK_RBV"
+            description: "interlock ok"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:ERROR_RBV"
+            description: "Error Present"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:HV_SW_RBV"
+            description: "hi voltage switch"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:Auto_On_RBV"
+            description: "Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:OVRD_ON_RBV"
+            description: "Regional Override Status"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:AT_VAC_SP_RBV"
+            description: "Protection/At Vacuum Setpoint"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:2:PRESS_RBV"
+            description: "pressure reading"
+            latching: TRUE
+            delay: 0
+        "PIP 3":
+          - pv: "RTDSK0:PIP:3:STATE_RBV"
+            description: "Valve state"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:ILK_OK_RBV"
+            description: "interlock ok"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:ERROR_RBV"
+            description: "Error Present"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:HV_SW_RBV"
+            description: "hi voltage switch"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:Auto_On_RBV"
+            description: "Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:OVRD_ON_RBV"
+            description: "Regional Override Status"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:AT_VAC_SP_RBV"
+            description: "Protection/At Vacuum Setpoint"
+            latching: TRUE
+            delay: 0
+          - pv: "RTDSK0:PIP:3:PRESS_RBV"
+            description: "pressure reading"
+            latching: TRUE
+            delay: 0

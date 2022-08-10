@@ -1,0 +1,437 @@
+<?xml version="1.0" ?>
+<config name="nalms-kfe">
+   <component name="GMD">
+      <component name="GMD high voltage">
+         <pv name="EM2K0:XGMD:SHV:01:M0:C0:isOn">
+            <description>Electron mesh powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C0:VoltageMeasure">
+            <description>Electron mesh voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C1:isOn">
+            <description>Electron FC powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C1:VoltageMeasure">
+            <description>Electron FC voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C14:isOn">
+            <description>Ion mesh powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C14:VoltageMeasure">
+            <description>Ion mesh voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C15:isOn">
+            <description>Electron multiplier powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C15:VoltageMeasure">
+            <description>Electron multiplier voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD spinning rotor gauge">
+         <pv name="EM1K0:GMD:GSR:1:GetRotSpeed">
+            <description>Rotation speed</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:GSR:1:Calib:Pressure:Calc">
+            <description>Pressure</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD Keithley">
+         <pv name="EM1K0:GMD:ETM:01:SelectCurrentRange">
+            <description>Current range</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:Reading">
+            <description>Current is changing</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:GetAvgCount">
+            <description>Reading to average</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:AvgEnable">
+            <description>Averaging on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:PutDamping">
+            <description>Damping on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:PutAutoRange">
+            <description>Autorange off</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:PutFunction">
+            <description>Measurement function</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD chamber temperature">
+         <pv name="EM1K0:GMD:RTD:1:TEMP_RBV">
+            <description>Temperature</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD Machine input data">
+         <pv name="EVNT:SYS0:1:NC_SOFTRATE">
+            <description>Beam rate</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD ATCA system">
+         <component name="GMD ATCA digitizer">
+            <pv name="EM1K0:GMD:HPS:NumSamples">
+               <description>Number of samples for pulse</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="GMD timing system">
+            <pv name="TPR:EM1K0:GMD:0:RXLNKSTATUS">
+               <description>Timing status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="EM1K0:GMD:HPS:TCRB1:OUTPUTCONFIG">
+               <description>Timing source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG01_SOURCE">
+               <description>Calculation trigger source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH01_SYS0_TCTL">
+               <description>Calculation channel enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG01_SYS0_TCTL">
+               <description>Calculation trigger enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH01_EVCODE">
+               <description>Calculation event code</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG01_SYS0_TDES">
+               <description>Calculation trigger delay</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH01_RATE">
+               <description>Calculation event rate</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG13_SOURCE">
+               <description>Waveform trigger source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH13_SYS0_TCTL">
+               <description>Waveform channel enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG13_SYS0_TCTL">
+               <description>Waveform trigger enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH13_EVCODE">
+               <description>Waveform event code</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG13_SYS0_TDES">
+               <description>Waveform trigger delay</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH13_RATE">
+               <description>Waveform event rate</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+      </component>
+   </component>
+   <component name="Vacuum">
+      <component name="RTDSK0 VCG">
+         <pv name="RTDSK0:VGC:1:POS_STATE_RBV">
+            <description>Valve position</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:STATE_RBV">
+            <description>valve state</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:FORCE_OPN_RBV">
+            <description>Epics Command to force open the valve in override mode</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:OVRD_ON_RBV">
+            <description>Epics Readback on Override mode</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:EXT_ILK_OK_RBV">
+            <description>External interlock ok</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:OPN_OK_RBV">
+            <description>Valve is OK to Open interlock</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERROR_RBV">
+            <description>Error Present</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:AT_VAC_RBV">
+            <description>at vacuum setpoint is reached</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERR_DifPres_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERR_SP_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:ERR_Ext_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:MPS_OK_RBV">
+            <description/>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:VGC:1:AT_VAC_SP_RBV">
+            <description>AT VAC Set point value</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="RTDSK0 GPI">
+         <pv name="RTDSK0:GPI:1:STATE_RBV">
+            <description>state of the gauge</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:PRESS_RBV">
+            <description>gauge pressure reading</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:VAC_SP_RBV">
+            <description>At vacuum setpoint for all gauges</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:PRO_SP_RBV">
+            <description>Protection setpoint for ion gauges at which the gauge turns off</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GPI:1:SP_HYS_RBV">
+            <description>Protection setpoint hysteresis</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="RTDSK0 GCC">
+         <pv name="RTDSK0:GCC:1:STATE_RBV">
+            <description>state of the gauge</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GCC:1:PRESS_RBV">
+            <description>gauge pressure reading</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GCC:1:PRO_SP_RBV">
+            <description>Protection setpoint for ion gauges at which the gauge turns off</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="RTDSK0:GCC:1:SP_HYS_RBV">
+            <description>Protection setpoint hysteresis</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="RTDSK0 PIP">
+         <component name="PIP 1">
+            <pv name="RTDSK0:PIP:1:STATE_RBV">
+               <description>Valve state</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:ILK_OK_RBV">
+               <description>interlock ok</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:ERROR_RBV">
+               <description>Error Present</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:HV_SW_RBV">
+               <description>hi voltage switch</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:Auto_On_RBV">
+               <description>Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:OVRD_ON_RBV">
+               <description>Regional Override Status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:AT_VAC_SP_RBV">
+               <description>Protection/At Vacuum Setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:1:PRESS_RBV">
+               <description>pressure reading</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="PIP 2">
+            <pv name="RTDSK0:PIP:2:STATE_RBV">
+               <description>Valve state</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:ILK_OK_RBV">
+               <description>interlock ok</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:ERROR_RBV">
+               <description>Error Present</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:HV_SW_RBV">
+               <description>hi voltage switch</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:Auto_On_RBV">
+               <description>Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:OVRD_ON_RBV">
+               <description>Regional Override Status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:AT_VAC_SP_RBV">
+               <description>Protection/At Vacuum Setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:2:PRESS_RBV">
+               <description>pressure reading</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="PIP 3">
+            <pv name="RTDSK0:PIP:3:STATE_RBV">
+               <description>Valve state</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:ILK_OK_RBV">
+               <description>interlock ok</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:ERROR_RBV">
+               <description>Error Present</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:HV_SW_RBV">
+               <description>hi voltage switch</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:Auto_On_RBV">
+               <description>Setting to automatically turn on the ion pump when the reference gauge pressure is below protection setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:OVRD_ON_RBV">
+               <description>Regional Override Status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:AT_VAC_SP_RBV">
+               <description>Protection/At Vacuum Setpoint</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="RTDSK0:PIP:3:PRESS_RBV">
+               <description>pressure reading</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+      </component>
+   </component>
+</config>

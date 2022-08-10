@@ -10,8 +10,8 @@ import collections
  
 directory = './'
 alarm_server = 'nalms-kfe'
-yamlfile = 'GMDXGMD.yaml'
-xmlfile = 'GMDXGMD.xml'
+yamlfile = '/Users/fmurgia/Documents/SLAC/pcds-nalms/Spreadsheet/RTDSK0Vac.yaml'
+xmlfile = '/Users/fmurgia/Documents/SLAC/pcds-nalms/XML/RTDSK0Vac.xml'
  
 def yaml2xml(obj, level, rootElement):
     pvs = []
