@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<config name="nalms-kfe">
+<config name="nalms-SXR-SXR_FEE">
    <component name="XGM">
       <component name="XGMD high voltage">
          <pv name="EM2K0:XGMD:SHV:01:Crate:StatusHigh.B0">
