@@ -1,0 +1,15 @@
+name: "convert csv to xml"
+description: "Convert csv files in data/ to xml and place them into export"
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Hello status"
+      shell: bash
+    - run: python Scripts/alarm_csv2xml.py data/ export/
+      shell: bash
+    - run: |
+        rm -rf export/*
+        cp data/* export/
+        ls export/
+      shell: bash
