@@ -4,7 +4,11 @@ description: "Convert csv files in data/ to xml and place them into export"
 runs:
   using: "composite"
   steps:
-    - run: echo "Hello status"
+    - run: echo "Converting all detected csvs to xml"
+      shell: bash
+    - run: ls -R
       shell: bash
     - run: python Scripts/convert_all_csv2xml.py -i Spreadsheet/ -o XML/
+      shell: bash
+    - run: ls -R
       shell: bash
