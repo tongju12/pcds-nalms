@@ -6,10 +6,5 @@ runs:
   steps:
     - run: echo "Hello status"
       shell: bash
-    - run: python Scripts/alarm_csv2xml.py data/ export/
-      shell: bash
-    - run: |
-        rm -rf export/*
-        cp data/* export/
-        ls export/
+    - run: python Scripts/convert_all_csv2xml.py -i Spreadsheet/ -o XML/
       shell: bash
