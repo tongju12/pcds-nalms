@@ -20,11 +20,11 @@ def convert_csv_to_xml(indir, outdir):
 
     for fp in indir.glob('*'):
         if fp.is_dir():
-            click.echo(f'-- recurse into {fp}, {outdir / fp.parent.name}')
+            click.echo(f'--> recurse into {fp}, {outdir / fp.parent.name}')
             convert_csv_to_xml(str(fp), str(outdir / fp.name))
         elif fp.is_file() and fp.suffix == '.csv':
             click.echo(f'converting {fp} to {(outdir / fp.name).with_suffix(".xml")}')
-            csvtoxml(fp, (outdir / fp.name).with_suffix(".xml"))
+            csvtoxml(fp, (outdir / fp.name).with_suffix(".xml"), fp.stem)
             ((outdir / fp.name).with_suffix('.xml')).touch()
 
 
