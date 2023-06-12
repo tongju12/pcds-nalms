@@ -27,6 +27,7 @@ jobs:
     - name: push to main
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       run: |
-        git commit -am 'convert to xml'
+        export PRNUM=$(git log --grep="Merge pull request" --pretty=oneline -1 | sed -En "s/.*#([[:digit:]]+).*/\1/p")
+        git commit -am "CI/MNT: convert csv to xml from PR# $PRNUM"
         ls export/
         git push
