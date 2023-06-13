@@ -1,10 +1,13 @@
-name: dummy action
+name: Process on PR
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
 
 jobs:
-  echo-hello:
+  generate-xml:
     runs-on: ubuntu-20.04
 
     defaults:
@@ -17,8 +20,16 @@ jobs:
         shell: bash --login -eo pipefail {0}
 
     steps: 
-    - name: dump github
-      env: 
-        GITHUB_CONTEXT: ${{ toJson(github) }}
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - uses: ./.github/actions/convert_csv_to_xml
+    - name: push to main
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       run: |
-        echo "$GITHUB_CONTEXT"
+        git config --gloabl user.name github-actions
+        git config --gloabl user.email github-actions@github.com
+        export PRNUM=$(git log --grep="Merge pull request" --pretty=oneline -1 | sed -En "s/.*#([[:digit:]]+).*/\1/p")
+        git commit -am "CI/MNT: convert csv to xml from PR# $PRNUM"
+        ls export/
+        git push

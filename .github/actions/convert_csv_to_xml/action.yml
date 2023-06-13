@@ -1,0 +1,16 @@
+name: "convert csv to xml"
+description: "Convert csv files in data/ to xml and place them into export"
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Converting all detected csvs to xml"
+      shell: bash
+    - run: ls -R XML/
+      shell: bash
+    - run: python Scripts/convert_all_csv2xml.py -i Spreadsheet/ -o XML/
+      shell: bash --login -eo pipefail {0}
+    - run: git diff --stat
+      shell: bash
+    - run: ls -R XML/
+      shell: bash
