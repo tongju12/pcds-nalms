@@ -22,7 +22,6 @@ def validate_csvs(csv_dir: str):
     for csv_file in csv_dir.glob('**/*.csv'):
         click.echo(f'validating {csv_file}...')
         csv_df = pd.read_csv(csv_file)
-        print(csv_df.head())
         duplicate_pvs = check_duplicate_pvs(csv_df)
         blank_line_nos = check_blank_lines(csv_df)
 
