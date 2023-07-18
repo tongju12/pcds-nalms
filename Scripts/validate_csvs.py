@@ -1,16 +1,17 @@
 from pathlib import Path
+from typing import List
 
 import click
 import pandas as pd
 
 
-def check_duplicate_pvs(df: pd.DataFrame):
+def check_duplicate_pvs(df: pd.DataFrame) -> List[str]:
     dup_column = df['PV'][df.duplicated('PV')].dropna()
     duplicates = dup_column.to_list() or []
     return duplicates
 
 
-def check_blank_lines(df: pd.DataFrame):
+def check_blank_lines(df: pd.DataFrame) -> List[int]:
     cleaned_idx = df.dropna(how='all').index
     return [i for index, i in enumerate(df.index) if index not in cleaned_idx]
 
@@ -46,3 +47,4 @@ def main(csv_dir):
 
 if __name__ == "__main__":
     main()
+
