@@ -45,14 +45,17 @@ def csvtoxml(infile, outfile, cname):
         out.write(xm.toprettyxml(indent=" "*3))
     click.echo(f'Conversion of {infile} complete. See {outfile}')
 
-if __name__ == '__main__':
 
-    @click.command()
-    @click.option('-i', '--infile', prompt='specify name of csv file', required=True,
-                type=str, help='Name of CSV input file.')
-    @click.option('-o', '--outfile', default=None, required=False, type=str,
-                help='Name of the XML output file. Derived from name of infile if unspecified.')
-    @click.option('-c', '--cname', prompt='specify name of the config', required=True,
-                type=str, help='Name of the config to set inside the XML.')
-    def main_command(infile, outfile, cname):
-        csvtoxml(infile, outfile)
+@click.command()
+@click.option('-i', '--infile', prompt='specify name of csv file', required=True,
+            type=str, help='Name of CSV input file.')
+@click.option('-o', '--outfile', default=None, required=False, type=str,
+            help='Name of the XML output file. Derived from name of infile if unspecified.')
+@click.option('-c', '--cname', prompt='specify name of the config', required=True,
+            type=str, help='Name of the config to set inside the XML.')
+def main_command(infile, outfile, cname):
+    csvtoxml(infile, outfile, cname)
+
+if __name__ == '__main__':
+    main_command()
+

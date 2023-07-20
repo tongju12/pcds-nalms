@@ -23,9 +23,17 @@ jobs:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
+    - name: install dev-requirements
+      run: | 
+        pip install --upgrade pip
+        pip install --requirement dev-requirements.txt
+    - name: check installed packages
+      run: | 
+        pip list
+    - uses: ./.github/actions/validate_csv
     - uses: ./.github/actions/convert_csv_to_xml
     - name: push to main
-      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
       run: |
         git config --gloabl user.name github-actions
         git config --gloabl user.email github-actions@github.com
