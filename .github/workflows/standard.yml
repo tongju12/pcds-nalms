@@ -40,8 +40,8 @@ jobs:
     - name: push to main
       if: github.ref == 'refs/heads/master' && github.event_name == 'push'
       run: |
-        git config --gloabl user.name github-actions
-        git config --gloabl user.email github-actions@github.com
+        git config --global user.name github-actions
+        git config --global user.email github-actions@github.com
         export PRNUM=$(git log --grep="Merge pull request" --pretty=oneline -1 | sed -En "s/.*#([[:digit:]]+).*/\1/p")
         git commit -am "CI/MNT: convert csv to xml from PR# $PRNUM"
         ls export/
