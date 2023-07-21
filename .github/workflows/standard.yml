@@ -30,6 +30,11 @@ jobs:
     - name: check installed packages
       run: | 
         pip list
+    - name: dump github
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: |
+        echo "$GITHUB_CONTEXT"
     - uses: ./.github/actions/validate_csv
     - uses: ./.github/actions/convert_csv_to_xml
     - name: push to main
