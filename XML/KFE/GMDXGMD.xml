@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<config name="nalms-kfe-GMDXGMD">
+<config name="GMDXGMD">
    <component name="GMD">
       <component name="GMD high voltage">
          <pv name="EM2K0:XGMD:SHV:01:M0:C0:isOn">
