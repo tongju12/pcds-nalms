@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<config name="TXI-alarms">
+   <component name="TXI"/>
+</config>

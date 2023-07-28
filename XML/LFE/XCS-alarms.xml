@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<config name="XCS-alarms">
+   <component name="XCS"/>
+</config>
