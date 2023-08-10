@@ -35,6 +35,12 @@ def csvtoxml(infile, outfile, cname):
                 latch.text = row['Latch'].capitalize()
                 delay = ET.SubElement(pv, 'delay')
                 delay.text = row['Delay']
+                if 'Filter' in row and row['Filter']:
+                    filter = ET.SubElement(pv, 'filter')
+                    filter.text = row['Filter']
+                if 'Guidance' in row and row['Guidance']:
+                    guidance = ET.SubElement(pv, 'guidance')
+                    guidance.text = row['Guidance']
 
         xm = minidom.parseString(ET.tostring(config, encoding='utf-8',
                                              xml_declaration=True,
