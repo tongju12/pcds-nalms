@@ -42,7 +42,7 @@
 ,,TPR:EM1K0:GMD:0:CH13_EVCODE,Waveform event code,TRUE,0,,
 ,,TPR:EM1K0:GMD:0:TRG13_SYS0_TDES,Waveform trigger delay,TRUE,0,,
 ,,TPR:EM1K0:GMD:0:CH13_RATE,Waveform event rate,TRUE,0,,
-0,XGM,,,,,,
+0,XGMD,,,,,,
 1,XGMD high voltage,,,,,,
 ,,EM2K0:XGMD:SHV:01:Crate:StatusHigh.B0,High voltage crate powered on for GMD and XGMD,TRUE,0,,
 ,,EM2K0:XGMD:SHV:01:M0:isSafetyLoopGood,Safety loop is good,TRUE,0,,
