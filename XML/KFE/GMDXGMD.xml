@@ -188,7 +188,7 @@
          </component>
       </component>
    </component>
-   <component name="XGM">
+   <component name="XGMD">
       <component name="XGMD high voltage">
          <pv name="EM2K0:XGMD:SHV:01:Crate:StatusHigh.B0">
             <description>High voltage crate powered on for GMD and XGMD</description>
