@@ -1,4 +1,285 @@
 <?xml version="1.0" ?>
 <config name="TMO-alarms">
-   <component name="TMO"/>
+   <component name="TMO Beamline Devices">
+      <component name="Mirrors">
+         <component name="MR1K4">
+            <pv name="MR1K4:SOMS:FWM:1_RBV">
+               <description>flow sensor 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR1K4:SOMS:FWM:2_RBV">
+               <description>flow sensor 2</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR1K4:SOMS:PRSM:1_RBV">
+               <description>cool pressure</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR1K4:SOMS:PIP:01:PRSM:1_RBV">
+               <description>MR1K4 ion pump</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR1K4:SOMS:GCC:1">
+               <description>GCC</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="MR2K4">
+            <pv name="MR2K4:KBO:FWM:1_RBV">
+               <description>flow sensor 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR2K4:KBO:PRSM:1_RBV">
+               <description>cool pressure</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR2K4:KBO:PIP:01_PRSM:1_RBV">
+               <description>MR2K4 ion pump</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR2K4:KBO:RTD:BEND:US:1_RBV">
+               <description>temperature</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR2K4:KBO:RTD:BEND:DS:1_RBV">
+               <description>temperature</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR2K4:KBO:GCC:01">
+               <description>GCC</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="MR3K4">
+            <pv name="MR3K4:KBO:FWM:1_RBV">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR3K4:KBO:RTD:BEND:US:1_RBV">
+               <description>temperature</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR3K4:KBO:RTD:BEND:DS:1_RBV">
+               <description>temperature</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="MR4K4">
+            <pv name="MR4K4:KBO:RTD:CHIN:L:TMP_RBV">
+               <description>temperature</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR4K4:KBO:PIP:01_PRESS_RBV">
+               <description>MR4K4 ion pump</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR4K4:KBO:GCC:01">
+               <description>GCC</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="MR5K4">
+            <pv name="MR5K4:KBO:RTD:CHIN:L:TMP_RBV">
+               <description>temperature</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+      <component name="Imagers">
+         <component name="IM1K4">
+            <pv name="IM1K4:PC1K4:FSW:1">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="IM2K4">
+            <pv name="IM2K4:FSW:1">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM2K4:PPM:SPM:STC:TEMP_RBV">
+               <description>PM thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM2K4:PPM:YAG:STC:TEMP_RBV">
+               <description>YAG thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="IM3K4">
+            <pv name="IM3K4:FSW:1">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM3K4:PPM:SPM:STC:TEMP_RBV">
+               <description>PM thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM3K4:PPM:YAG:STC:TEMP_RBV">
+               <description>YAG thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="IM4K4">
+            <pv name="IM4K4:FSW:2">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM4K4:PPM:SPM:STC:TEMP_RBV">
+               <description>PM thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM4K4:PPM:YAG:STC:TEMP_RBV">
+               <description>YAG thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="IM5K4">
+            <pv name="IM5K4:PPM:SPM:STC:TEMP_RBV">
+               <description>PM thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM5K4:PPM:YAG:STC:TEMP_RBV">
+               <description>YAG thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="IM6K4">
+            <pv name="IM6K4:PPM:SPM:STC:TEMP_RBV">
+               <description>PM thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM6K4:PPM:YAG:STC:TEMP_RBV">
+               <description>YAG thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+      <component name="WFS">
+         <component name="PF1K4">
+            <pv name="PF1K4:WFS:STC:01:TEMP_RBV">
+               <description>thermocouple 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="PF1K4:WFS:STC:02:TEMP_RBV">
+               <description>thermocouple 2</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="PF2K4">
+            <pv name="PF2K4:WFS:STC:01:TEMP_RBV">
+               <description>thermocouple 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="PF2K4:WFS:STC:02:TEMP_RBV">
+               <description>thermocouple 2</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+      <component name="ATM">
+         <component name="TM1K4">
+            <pv name="TM1K4:PF1K4:IM5K4:FWM:3">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="TM1K4:ATM:STC:01:TEMP_RBV">
+               <description>thermocouple 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+         <component name="TM2K4">
+            <pv name="TM2K4:PF2K4:IM6K4:FWM:5">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="TM2K4:ATM:STC:01:TEMP_RBV">
+               <description>thermocouple 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+      <component name="STOPPER">
+         <component name="ST1K4">
+            <pv name="ST1K4:FSW:2">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="ST1K4:TSET:MMS:STATE:ERR_RBV">
+               <description>ST1K4 error state</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+      <component name="IP1">
+         <component name="Main Chamber Pressure">
+            <pv name="TMO:IP1:MAIN:GAUGE">
+               <description>gauge pressure</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+      <component name="LI2K4">
+         <component name="Failing gauges (2 out of 3)">
+            <pv name="LI2K4:IP1:GFS:01">
+               <description>GCC</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="LI2K4:IP1:GFS:02">
+               <description>GCC</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="LI2K4:IP1:GFS:03">
+               <description>GCC</description>
+               <latching/>
+               <delay/>
+            </pv>
+         </component>
+      </component>
+   </component>
 </config>
