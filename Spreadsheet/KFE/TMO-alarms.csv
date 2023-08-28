@@ -1,4 +1,4 @@
-Indent,Branch,PV,Description,Latch,Delay,Filter,Guidance
+#Indent,Branch,PV,Description,Latch,Delay,Filter,Guidance
 0,TMO Beamline Devices,,,,,,
 1,Mirrors,,,,,,
 2,MR1K4,,,,,,
@@ -65,6 +65,12 @@ Indent,Branch,PV,Description,Latch,Delay,Filter,Guidance
 ,,TMO:IP1:MAIN:GAUGE:PRESS_RBV,gauge pressure,,,,
 1,LI2K4,,,,,,
 2,Failing gauges (2 out of 3),,,,,,
+<<<<<<< HEAD
 ,,LI2K4:IP1:GFS:01:PRESS_RBV,GCC,,,,
 ,,LI2K4:IP1:GFS:02:PRESS_RBV,GCC,,,,
 ,,LI2K4:IP1:GFS:03:PRESS_RBV,GCC,,,,
+=======
+,,LI2K4:IP1:GFS:01,GCC,,,,
+,,LI2K4:IP1:GFS:02,GCC,,,,
+,,LI2K4:IP1:GFS:03,GCC,,,,
+>>>>>>> 6c423b8ef503d2d3bc1bb84ae8045112908881b7
