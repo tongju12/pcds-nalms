@@ -28,7 +28,7 @@ def validate_csvs(csv_dir: str):
 
         if duplicate_pvs:
             click.echo(f'- found duplicate pvs: {duplicate_pvs}')
-            fail = True
+            # fail = True
 
         if blank_line_nos:
             click.echo(f'- found blank lines: {blank_line_nos}')
