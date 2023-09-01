@@ -1,4 +1,4 @@
-﻿#Indent,Branch,PV,Description,Latch,Delay,Filter,Guidance
+#Indent,Branch,PV,Description,Latch,Delay,Filter,Guidance
 0,TXI,,,,,,
 1,Test,,,,,,
 2,GMD_PVs,,,,,,
@@ -23,5 +23,3 @@
 2,duplicated,,,,,,
 ,,EM1K0:GMD:ETM:01:SelectCurrentRange,Current range,TRUE,0,,
 ,,EM1K0:GMD:ETM:01:Reading,Current is changing,FALSE,10,,
-,,,,,,,
-1,Pos_test,MR1K4:SOMS:GCC:1:PRESS_RBV,GCC,,,,
