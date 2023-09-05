@@ -122,7 +122,7 @@
             </pv>
          </component>
          <component name="IM3K4">
-            <pv name="IM3K4:PPM:FWM:VAL_RBV">
+            <pv name="IM4K4:PPM:FWM:VAL_RBV">
                <description>flow sensor</description>
                <latching/>
                <delay/>
@@ -192,6 +192,11 @@
       </component>
       <component name="WFS">
          <component name="PF1K4">
+            <pv name="IM5K4:PPM:FWM:VAL_RBV">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
             <pv name="PF1K4:WFS:STC:01:TEMP_RBV">
                <description>thermocouple 1</description>
                <latching/>
@@ -204,6 +209,11 @@
             </pv>
          </component>
          <component name="PF2K4">
+            <pv name="IM6K4:PPM:FWM:VAL_RBV">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
             <pv name="PF2K4:WFS:STC:01:TEMP_RBV">
                <description>thermocouple 1</description>
                <latching/>
@@ -218,6 +228,11 @@
       </component>
       <component name="ATM">
          <component name="TM1K4">
+            <pv name="IM5K4:PPM:FWM:VAL_RBV">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
             <pv name="TM1K4:ATM:STC:01:TEMP_RBV">
                <description>thermocouple 1</description>
                <latching/>
@@ -225,6 +240,11 @@
             </pv>
          </component>
          <component name="TM2K4">
+            <pv name="IM6K4:PPM:FWM:VAL_RBV">
+               <description>flow sensor</description>
+               <latching/>
+               <delay/>
+            </pv>
             <pv name="TM2K4:ATM:STC:01:TEMP_RBV">
                <description>thermocouple 1</description>
                <latching/>
