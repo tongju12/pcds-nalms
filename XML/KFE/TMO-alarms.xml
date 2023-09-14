@@ -31,7 +31,7 @@
          </component>
          <component name="MR2K4">
             <pv name="MR2K4:KBO:FWM:1_RBV">
-               <description>flow sensor 1</description>
+               <description>flow sensor</description>
                <latching/>
                <delay/>
             </pv>
@@ -171,6 +171,16 @@
                <latching/>
                <delay/>
             </pv>
+            <pv name="IM5K4:PPM:CAM:TSS:SyncStatus">
+               <description>Camera Sync Status</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM5K4:PPM:CAM:TSS:DiffVsIntAvg">
+               <description>Sync Diff</description>
+               <latching/>
+               <delay/>
+            </pv>
          </component>
          <component name="IM6K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
@@ -185,6 +195,16 @@
             </pv>
             <pv name="IM6K4:PPM:YAG:STC:TEMP_RBV">
                <description>YAG thermocouple</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM6K4:PPM:CAM:TSS:SyncStatus">
+               <description>Camera Sync Status</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="IM6K4:PPM:CAM:TSS:DiffVsIntAvg">
+               <description>Sync Diff</description>
                <latching/>
                <delay/>
             </pv>
@@ -288,6 +308,20 @@
                <delay/>
             </pv>
          </component>
+      </component>
+   </component>
+   <component name="TMO DAQ">
+      <component name="SP1K4">
+         <pv name="SP1K4:PPM:CAM:TSS:SyncStatus">
+            <description>Camera Sync Status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="SP1K4:PPM:CAM:TSS:DiffVsIntAvg">
+            <description>Sync Diff</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
    </component>
 </config>
