@@ -1,0 +1,429 @@
+<?xml version="1.0" ?>
+<config name="TSTXGMD">
+   <component name="GMD">
+      <component name="GMD high voltage">
+         <pv name="EM2K0:XGMD:SHV:01:M0:C0:isOn">
+            <description>Electron mesh powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C0:VoltageMeasure">
+            <description>Electron mesh voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C1:isOn">
+            <description>Electron FC powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C1:VoltageMeasure">
+            <description>Electron FC voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C14:isOn">
+            <description>Ion mesh powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C14:VoltageMeasure">
+            <description>Ion mesh voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C15:isOn">
+            <description>Electron multiplier powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C15:VoltageMeasure">
+            <description>Electron multiplier voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD spinning rotor gauge">
+         <pv name="EM1K0:GMD:GSR:1:GetRotSpeed">
+            <description>Rotation speed</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:GSR:1:Calib:Pressure:Calc">
+            <description>Pressure</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD Keithley">
+         <pv name="EM1K0:GMD:ETM:01:SelectCurrentRange">
+            <description>Current range</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:Reading">
+            <description>Current is changing</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:GetAvgCount">
+            <description>Reading to average</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:AvgEnable">
+            <description>Averaging on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:PutDamping">
+            <description>Damping on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:PutAutoRange">
+            <description>Autorange off</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM1K0:GMD:ETM:01:PutFunction">
+            <description>Measurement function</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD chamber temperature">
+         <pv name="EM1K0:GMD:RTD:1:TEMP_RBV">
+            <description>Temperature</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD Machine input data">
+         <pv name="EVNT:SYS0:1:NC_SOFTRATE">
+            <description>Beam rate</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="GMD ATCA system">
+         <component name="GMD ATCA digitizer">
+            <pv name="EM1K0:GMD:HPS:NumSamples">
+               <description>Number of samples for pulse</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="GMD timing system">
+            <pv name="TPR:EM1K0:GMD:0:RXLNKSTATUS">
+               <description>Timing status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="EM1K0:GMD:HPS:TCRB1:OUTPUTCONFIG">
+               <description>Timing source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG01_SOURCE">
+               <description>Calculation trigger source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH01_SYS0_TCTL">
+               <description>Calculation channel enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG01_SYS0_TCTL">
+               <description>Calculation trigger enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH01_EVCODE">
+               <description>Calculation event code</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG01_SYS0_TDES">
+               <description>Calculation trigger delay</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH01_RATE">
+               <description>Calculation event rate</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG13_SOURCE">
+               <description>Waveform trigger source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH13_SYS0_TCTL">
+               <description>Waveform channel enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG13_SYS0_TCTL">
+               <description>Waveform trigger enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH13_EVCODE">
+               <description>Waveform event code</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:TRG13_SYS0_TDES">
+               <description>Waveform trigger delay</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM1K0:GMD:0:CH13_RATE">
+               <description>Waveform event rate</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+      </component>
+   </component>
+   <component name="XGM">
+      <component name="XGMD high voltage">
+         <pv name="EM2K0:XGMD:SHV:01:Crate:StatusHigh.B0">
+            <description>High voltage crate powered on for GMD and XGMD</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:isSafetyLoopGood">
+            <description>Safety loop is good</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C2:isOn">
+            <description>Electron mesh powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C2:VoltageMeasure">
+            <description>Electron mesh voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C3:isOn">
+            <description>Electron FC powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C3:VoltageMeasure">
+            <description>Electron FC voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C12:isOn">
+            <description>Ion mesh powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C12:VoltageMeasure">
+            <description>Ion mesh voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C13:isOn">
+            <description>Electron multiplier powered on</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:SHV:01:M0:C13:VoltageMeasure">
+            <description>Electron multiplier voltage</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="XGMD spinning rotor gauge">
+         <pv name="EM2K0:XGMD:GSR:1:GetRotSpeed">
+            <description>Rotation speed</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:GSR:1:Calib:Pressure:Calc">
+            <description>Pressure</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="XGMD Keithley">
+         <pv name="EM2K0:XGMD:ETM:01:SelectCurrentRange">
+            <description>Current range Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:01:Reading">
+            <description>Current is changing Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:01:GetAvgCount">
+            <description>Reading to average Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:01:AvgEnable">
+            <description>Averaging on Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:01:PutDamping">
+            <description>Damping on Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:01:PutAutoRange">
+            <description>Autorange off Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:01:PutFunction">
+            <description>Measurement function Keithley 1</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:SelectCurrentRange">
+            <description>Current range Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:Reading">
+            <description>Current is changing Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:GetAvgCount">
+            <description>Reading to average Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:AvgEnable">
+            <description>Averaging on Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:PutDamping">
+            <description>Damping on Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:PutAutoRange">
+            <description>Autorange off Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:PutFunction">
+            <description>Measurement function Keithley 2</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="XGMD chamber temperature">
+         <pv name="EM2K0:XGMD:RTD:1:TEMP_RBV">
+            <description>Temperature</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="XGMD machine input data">
+         <pv name="EVNT:SYS0:1:NC_SOFTRATE">
+            <description>Beam rate</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="SIOC:SYS0:ML00:AO628">
+            <description>Wavelength from accelerator</description>
+            <latching>True</latching>
+            <delay>0</delay>
+         </pv>
+      </component>
+      <component name="XGMD ATCA system">
+         <component name="XGMD ATCA digitizer">
+            <pv name="EM2K0:XGMD:HPS:NumSamples">
+               <description>Number of samples for pulse</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+         <component name="XGMD timing system">
+            <pv name="TPR:EM2K0:XGMD:0:RXLNKSTATUS">
+               <description>Timing status</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="EM2K0:XGMD:HPS:TCRB1:OUTPUTCONFIG">
+               <description>Timing source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:TRG01_SOURCE">
+               <description>Calculation trigger source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:CH01_SYS0_TCTL">
+               <description>Calculation channel enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:TRG01_SYS0_TCTL">
+               <description>Calculation trigger enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:CH01_EVCODE">
+               <description>Calculation event code</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:TRG01_SYS0_TDES">
+               <description>Calculation trigger delay</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:CH01_RATE">
+               <description>Calculation event rate</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:TRG13_SOURCE">
+               <description>Waveform trigger source</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:CH13_SYS0_TCTL">
+               <description>Waveform channel enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:TRG13_SYS0_TCTL">
+               <description>Waveform trigger enabled</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:CH13_EVCODE">
+               <description>Waveform event code</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:TRG13_SYS0_TDES">
+               <description>Waveform trigger delay</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:EM2K0:XGMD:0:CH13_RATE">
+               <description>Waveform event rate</description>
+               <latching>True</latching>
+               <delay>0</delay>
+            </pv>
+         </component>
+      </component>
+   </component>
+</config>
