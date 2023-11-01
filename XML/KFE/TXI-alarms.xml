@@ -1,97 +1,29 @@
 <?xml version="1.0" ?>
 <config name="TXI-alarms">
-   <component name="TXI">
-      <component name="Test">
-         <component name="GMD_PVs">
-            <component name="GMD high voltage">
-               <pv name="EM2K0:XGMD:SHV:01:M0:C0:isOn">
-                  <description>Electron mesh powered on</description>
-                  <latching>True</latching>
-                  <delay>0</delay>
-               </pv>
-               <pv name="EM2K0:XGMD:SHV:01:M0:C0:VoltageMeasure">
-                  <description>Electron mesh voltage</description>
-                  <latching>False</latching>
-                  <delay>0</delay>
-               </pv>
-            </component>
-            <component name="GMD Keithley">
-               <pv name="EM1K0:GMD:ETM:01:SelectCurrentRange">
-                  <description>Current range</description>
-                  <latching>True</latching>
-                  <delay>0</delay>
-               </pv>
-               <pv name="EM1K0:GMD:ETM:01:Reading">
-                  <description>Current is changing</description>
-                  <latching>False</latching>
-                  <delay>10</delay>
-               </pv>
-               <pv name="EM1K0:GMD:ETM:01:GetAvgCount">
-                  <description>Reading to average</description>
-                  <latching>Wrong</latching>
-                  <delay>0</delay>
-                  <guidance>xxx</guidance>
-               </pv>
-            </component>
-         </component>
-         <component name="XGMD_test">
-            <pv name="EM2K0:XGMD:GSR:1:GetRotSpeed">
-               <description>Rotation speed</description>
-               <latching>True</latching>
-               <delay>0</delay>
-            </pv>
-            <pv name="EM2K0:XGMD:GSR:1:Calib:Pressure:Calc">
-               <description>Pressure</description>
-               <latching>True</latching>
-               <delay>0</delay>
-            </pv>
-         </component>
-      </component>
-      <component name="TMO_Test">
-         <component name="Mirrors">
-            <pv name="">
-               <description/>
-               <latching/>
-               <delay/>
-            </pv>
-            <pv name="MR1K4:SOMS:FWM:1_RBV">
-               <description>flow sensor 1</description>
-               <latching>True</latching>
-               <delay/>
-            </pv>
-            <pv name="MR1K4:SOMS:FWM:2_RBV">
-               <description>flow sensor 2</description>
-               <latching>False</latching>
-               <delay/>
-            </pv>
-            <pv name="MR1K4:SOMS:PRSM:1_RBV">
-               <description>cool pressure</description>
-               <latching/>
-               <delay>0</delay>
-            </pv>
-            <pv name="MR1K4:SOMS:PIP:01:PRESS_RBV">
-               <description>MR1K4 ion pump</description>
-               <latching/>
-               <delay>1.2</delay>
-            </pv>
-            <pv name="MR1K4:SOMS:GCC:1:PRESS_RBV">
-               <description>GCC</description>
-               <latching/>
-               <delay/>
-            </pv>
-         </component>
-         <component name="duplicated">
-            <pv name="EM1K0:GMD:ETM:01:SelectCurrentRange">
-               <description>Current range</description>
-               <latching>True</latching>
-               <delay>0</delay>
-            </pv>
-            <pv name="EM1K0:GMD:ETM:01:Reading">
-               <description>Current is changing</description>
-               <latching>False</latching>
-               <delay>10</delay>
-            </pv>
-         </component>
+   <component name="TMO_Test">
+      <component name="Filter_test">
+         <pv name="PPS:NEH1:1:ST3K4INSUM">
+            <description/>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="SIOC:SYS0:ML00:AO628">
+            <description/>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR1K4:SOMS:COATING:STATE:GET_RBV">
+            <description/>
+            <latching/>
+            <delay/>
+            <filter>SIOC:SYS0:ML00:AO628&lt;400</filter>
+         </pv>
+         <pv name="ST1K4:TEST:MMS:STATE:GET_RBV">
+            <description/>
+            <latching/>
+            <delay/>
+            <filter>!= PPS:NEH1:1:ST3K4INSUM</filter>
+         </pv>
       </component>
    </component>
 </config>
