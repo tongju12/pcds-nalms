@@ -4,17 +4,17 @@
       <component name="Mirrors">
          <component name="MR1K4">
             <pv name="MR1K4:SOMS:FWM:1_RBV">
-               <description>flow sensor 1</description>
+               <description>Flow sensor 1</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:FWM:2_RBV">
-               <description>flow sensor 2</description>
+               <description>Flow sensor 2</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:PRSM:1_RBV">
-               <description>cool pressure</description>
+               <description>Cool pressure</description>
                <latching/>
                <delay/>
             </pv>
@@ -28,15 +28,21 @@
                <latching/>
                <delay/>
             </pv>
+            <pv name="MR1K4:SOMS:COATING:STATE:GET_RBV">
+               <description>MR1K4 Coating</description>
+               <latching/>
+               <delay/>
+               <filter>MR1K4:SOMS:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 400</filter>
+            </pv>
          </component>
          <component name="MR2K4">
             <pv name="MR2K4:KBO:FWM:1_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:PRSM:1_RBV">
-               <description>cool pressure</description>
+               <description>Cool pressure</description>
                <latching/>
                <delay/>
             </pv>
@@ -46,12 +52,12 @@
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:RTD:BEND:US:1_RBV">
-               <description>temperature</description>
+               <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:RTD:BEND:DS:1_RBV">
-               <description>temperature</description>
+               <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
@@ -60,27 +66,33 @@
                <latching/>
                <delay/>
             </pv>
+            <pv name="MR2K4:KBO:COATING:STATE:GET_RBV">
+               <description>MR2K4 Coating</description>
+               <latching/>
+               <delay/>
+               <filter>MR2K4:KBO:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 400</filter>
+            </pv>
          </component>
          <component name="MR3K4">
             <pv name="MR3K4:KBO:FWM:1_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="MR3K4:KBO:RTD:BEND:US:1_RBV">
-               <description>temperature</description>
+               <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="MR3K4:KBO:RTD:BEND:DS:1_RBV">
-               <description>temperature</description>
+               <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
          </component>
          <component name="MR4K4">
             <pv name="MR4K4:KBO:RTD:CHIN:L:TEMP_RBV">
-               <description>temperature</description>
+               <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
@@ -97,7 +109,7 @@
          </component>
          <component name="MR5K4">
             <pv name="MR5K4:KBO:RTD:CHIN:L:TEMP_RBV">
-               <description>temperature</description>
+               <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
@@ -106,7 +118,7 @@
       <component name="Imagers">
          <component name="IM2K4">
             <pv name="IM2K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
@@ -123,7 +135,7 @@
          </component>
          <component name="IM3K4">
             <pv name="IM4K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
@@ -140,7 +152,7 @@
          </component>
          <component name="IM4K4">
             <pv name="IM4K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
@@ -157,7 +169,7 @@
          </component>
          <component name="IM5K4">
             <pv name="IM5K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
@@ -184,7 +196,7 @@
          </component>
          <component name="IM6K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
@@ -213,34 +225,34 @@
       <component name="WFS">
          <component name="PF1K4">
             <pv name="IM5K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="PF1K4:WFS:STC:01:TEMP_RBV">
-               <description>thermocouple 1</description>
+               <description>Thermocouple 1</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="PF1K4:WFS:STC:02:TEMP_RBV">
-               <description>thermocouple 2</description>
+               <description>Thermocouple 2</description>
                <latching/>
                <delay/>
             </pv>
          </component>
          <component name="PF2K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="PF2K4:WFS:STC:01:TEMP_RBV">
-               <description>thermocouple 1</description>
+               <description>Thermocouple 1</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="PF2K4:WFS:STC:02:TEMP_RBV">
-               <description>thermocouple 2</description>
+               <description>Thermocouple 2</description>
                <latching/>
                <delay/>
             </pv>
@@ -249,24 +261,24 @@
       <component name="ATM">
          <component name="TM1K4">
             <pv name="IM5K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="TM1K4:ATM:STC:01:TEMP_RBV">
-               <description>thermocouple 1</description>
+               <description>Thermocouple 1</description>
                <latching/>
                <delay/>
             </pv>
          </component>
          <component name="TM2K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
-               <description>flow sensor</description>
+               <description>Flow sensor</description>
                <latching/>
                <delay/>
             </pv>
             <pv name="TM2K4:ATM:STC:01:TEMP_RBV">
-               <description>thermocouple 1</description>
+               <description>Thermocouple 1</description>
                <latching/>
                <delay/>
             </pv>
@@ -279,12 +291,18 @@
                <latching/>
                <delay/>
             </pv>
+            <pv name="ST1K4:TEST:MMS:STATE:GET_RBV">
+               <description>ST1K4 state</description>
+               <latching/>
+               <delay/>
+               <filter>ST1K4:TEST:MMS:STATE:GET_RBV != PPS:NEH1:1:ST3K4INSUM</filter>
+            </pv>
          </component>
       </component>
       <component name="IP1">
          <component name="Main Chamber Pressure">
             <pv name="TMO:IP1:MAIN:GAUGE:PRESS_RBV">
-               <description>gauge pressure</description>
+               <description>Gauge pressure</description>
                <latching/>
                <delay/>
             </pv>
