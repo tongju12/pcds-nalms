@@ -1,7 +1,2 @@
 #Indent,Branch,PV,Description,Latch,Delay,Filter,Guidance
-0,TMO_Test,,,,,,
-1,Filter_test,,,,,,
-,,PPS:NEH1:1:ST3K4INSUM,,,,,
-,,SIOC:SYS0:ML00:AO628,,,,,
-,,MR1K4:SOMS:COATING:STATE:GET_RBV,,,,SIOC:SYS0:ML00:AO628<400,
-,,ST1K4:TEST:MMS:STATE:GET_RBV,,,,!= PPS:NEH1:1:ST3K4INSUM,
+
