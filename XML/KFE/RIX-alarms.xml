@@ -32,6 +32,11 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="MR1K1:BEND:PIP:1:STATE_RBV">
+            <description>MR1K1 ION PUMP STATE</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
       <component name="IM1K1:PPM">
          <pv name="IM1K1:PPM:SPM:VOLT_RBV">
@@ -111,8 +116,18 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="SP1K1:MONO:PIP:1:STATE_RBV">
+            <description>SP1K1 ION PUMP 1 STATE</description>
+            <latching/>
+            <delay/>
+         </pv>
          <pv name="SP1K1:MONO:PIP:2:PRESS_RBV">
             <description>SP1K1 ION PUMP 2</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="SP1K1:MONO:PIP:2:STATE_RBV">
+            <description>SP1K1 ION PUMP 2 STATE</description>
             <latching/>
             <delay/>
          </pv>
@@ -152,6 +167,11 @@
          </pv>
          <pv name="MR1K2:SWITCH:PIP:1:PRESS_RBV">
             <description>MR1K2 ION PUMP</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR1K2:SWITCH:PIP:1:STATE_RBV">
+            <description>MR1K2 ION PUMP STATE</description>
             <latching/>
             <delay/>
          </pv>
@@ -205,6 +225,11 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="MR2K2:FLAT:PIP:1:STATE_RBV">
+            <description>MR2K2 ION PUMP STATE</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
       <component name="IM2K2:PPM">
          <pv name="IM2K2:PPM:SPM:VOLT_RBV">
@@ -227,6 +252,11 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="IM2K2:PPM:PIP:1:STATE_RBV">
+            <description>IM2K2 ION PUMP STATE</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
       <component name="MR3K2:KBH">
          <pv name="MR3K2:KBH:RTD:BEND:US:1_RBV">
@@ -241,6 +271,11 @@
          </pv>
          <pv name="MR3K2:KBH:PIP:1:PRESS_RBV">
             <description>MR3K2 ION PUMP</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR3K2:KBH:PIP:1:STATE_RBV">
+            <description>MR3K2 ION PUMP STATE</description>
             <latching/>
             <delay/>
          </pv>
@@ -266,6 +301,11 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="IM3K2:PPM:PIP:1:STATE_RBV">
+            <description>IM3K2 ION PUMP STATE</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
       <component name="MR4K2:KBV">
          <pv name="MR4K2:KBV:RTD:BEND:US:1_RBV">
@@ -280,6 +320,11 @@
          </pv>
          <pv name="MR4K2:KBV:PIP:1:PRESS_RBV">
             <description>MR4K2 ION PUMP</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR4K2:KBV:PIP:1:STATE_RBV">
+            <description>MR4K2 ION PUMP STATE</description>
             <latching/>
             <delay/>
          </pv>
@@ -302,6 +347,11 @@
          </pv>
          <pv name="IM4K2:PPM:PIP:1:PRESS_RBV">
             <description>IM4K2 ION PUMP</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM4K2:PPM:PIP:1:STATE_RBV">
+            <description>IM4K2 ION PUMP STATE</description>
             <latching/>
             <delay/>
          </pv>
@@ -343,6 +393,11 @@
          </pv>
          <pv name="IM5K2:PPM:PIP:1:PRESS_RBV">
             <description>IM5K2 ION PUMP</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM5K2:PPM:PIP:1:STATE_RBV">
+            <description>IM5K2 ION PUMP STATE</description>
             <latching/>
             <delay/>
          </pv>

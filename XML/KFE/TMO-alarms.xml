@@ -89,6 +89,12 @@
                <latching/>
                <delay/>
             </pv>
+            <pv name="MR3K4:KBO:COATING:STATE:GET_RBV">
+               <description>MR3K4 Coating</description>
+               <latching/>
+               <delay/>
+               <filter>MR3K4:KBO:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 400</filter>
+            </pv>
          </component>
          <component name="MR4K4">
             <pv name="MR4K4:KBO:RTD:CHIN:L:TEMP_RBV">
