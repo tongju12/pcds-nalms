@@ -220,6 +220,21 @@
          </pv>
       </component>
       <component name="MR2K2:FLAT">
+         <pv name="MR2K2:FLAT:FWM:1_RBV">
+            <description>FLOW SENSOR 1</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR2K2:FLAT:FWM:2_RBV">
+            <description>FLOW SENSOR 2</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR2K2:FLAT:PRSM:1_RBV">
+            <description>COOL PRESSURE</description>
+            <latching/>
+            <delay/>
+         </pv>
          <pv name="MR2K2:FLAT:PIP:1:PRESS_RBV">
             <description>MR2K2 ION PUMP</description>
             <latching/>
@@ -259,6 +274,16 @@
          </pv>
       </component>
       <component name="MR3K2:KBH">
+         <pv name="MR3K2:KBH:FWM:1_RBV">
+            <description>FLOW SENSOR 1</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR3K2:KBH:PRSM:1_RBV">
+            <description>COOL PRESSURE</description>
+            <latching/>
+            <delay/>
+         </pv>
          <pv name="MR3K2:KBH:RTD:BEND:US:1_RBV">
             <description>TEMPERATURE</description>
             <latching/>
@@ -308,6 +333,16 @@
          </pv>
       </component>
       <component name="MR4K2:KBV">
+         <pv name="MR4K2:KBV:FWM:1_RBV">
+            <description>FLOW SENSOR 1</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR4K2:KBV:PRSM:1_RBV">
+            <description>COOL PRESSURE</description>
+            <latching/>
+            <delay/>
+         </pv>
          <pv name="MR4K2:KBV:RTD:BEND:US:1_RBV">
             <description>TEMPERATURE</description>
             <latching/>
