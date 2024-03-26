@@ -80,7 +80,6 @@
 ,,LI2K4:IP1:GFS:01:PRESS_RBV,GCC,,,,
 ,,LI2K4:IP1:GFS:02:PRESS_RBV,GCC,,,,
 ,,LI2K4:IP1:GFS:03:PRESS_RBV,GCC,,,,
-##0,TMO DAQ,,,,,,
 1,SP1K4,,,,,,
 ,,SP1K4:PPM:CAM:TSS:SyncStatus,Camera Sync Status,,,,
 ,,SP1K4:PPM:CAM:TSS:DiffVsIntAvg,Sync Diff,,,,
