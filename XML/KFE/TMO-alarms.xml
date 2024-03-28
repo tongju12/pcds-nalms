@@ -333,8 +333,6 @@
             </pv>
          </component>
       </component>
-   </component>
-   <component name="TMO DAQ">
       <component name="SP1K4">
          <pv name="SP1K4:PPM:CAM:TSS:SyncStatus">
             <description>Camera Sync Status</description>
@@ -343,6 +341,35 @@
          </pv>
          <pv name="SP1K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
+            <latching/>
+            <delay/>
+         </pv>
+      </component>
+   </component>
+   <component name="TMO DAQ">
+      <component name="DAQ Damage">
+         <pv name="pva://DAQ:NEH:tmo:0:DeadFrac">
+            <description/>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="pva://DAQ:NEH:tmo:0:Damage_hsd">
+            <description/>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="pva://DAQ:NEH:tmo:0:Damage_bld">
+            <description/>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="pva://DAQ:NEH:tmo:0:Damage_epics">
+            <description/>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="pva://DAQ:NEH:tmo:0:Damage_atm">
+            <description/>
             <latching/>
             <delay/>
          </pv>
