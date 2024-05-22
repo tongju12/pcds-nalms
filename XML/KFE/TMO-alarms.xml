@@ -34,6 +34,16 @@
                <delay/>
                <filter>MR1K4:SOMS:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 400</filter>
             </pv>
+            <pv name="MR1K4:SOMS:GANTRY_X_RBV">
+               <description>Gantry X</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="MR1K4:SOMS:GANTRY_Y_RBV">
+               <description>Gantry Y</description>
+               <latching/>
+               <delay/>
+            </pv>
          </component>
          <component name="MR2K4">
             <pv name="MR2K4:KBO:FWM:1_RBV">
@@ -372,6 +382,70 @@
          </pv>
          <pv name="IM5K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
+            <latching/>
+            <delay/>
+         </pv>
+      </component>
+   </component>
+   <component name="PMPS">
+      <component name="PMPS Arbiter Enable Status">
+         <pv name="IM1K4:XTES:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>IM1K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM2K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>IM2K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM3K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>IM3K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM4K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>IM4K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM5K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>IM5K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="IM6K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>IM6K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="PF1K4:WFS:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>PF1K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="PF2K4:WFS:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>PF2K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR1K4:SOMS:COATING:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>MR1K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR2K4:KBO:COATING:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>MR2K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="MR3K4:KBO:COATING:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>MR3K4 arbiter status</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="SP1K4:FZP:STATE:PMPS:ARB:ENABLE_RBV">
+            <description>SP1K4 zoneplate arbiter status</description>
             <latching/>
             <delay/>
          </pv>
