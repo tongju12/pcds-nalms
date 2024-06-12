@@ -34,12 +34,6 @@
                <delay/>
                <filter>MR1K4:SOMS:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 450</filter>
             </pv>
-            <pv name="MR1K4:SOMS:COATING:STATE:GET_RBV">
-               <description>MR1K4 Coating</description>
-               <latching/>
-               <delay/>
-               <filter>MR1K4:SOMS:COATING:STATE:GET_RBV == Si &amp;&amp; SIOC:SYS0:ML00:AO628 &gt; 450</filter>
-            </pv>
             <pv name="MR1K4:SOMS:GANTRY_X_RBV">
                <description>Gantry X</description>
                <latching/>
@@ -91,7 +85,7 @@
                <description>MR2K4 Coating</description>
                <latching/>
                <delay/>
-               <filter>MR2K4:KBO:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 400</filter>
+               <filter>MR2K4:KBO:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 450</filter>
             </pv>
             <pv name="MR2K4:KBO:COATING:STATE:PMPS:ARB:ENABLE_RBV">
                <description>MR2K4 arbiter status</description>
@@ -119,7 +113,7 @@
                <description>MR3K4 Coating</description>
                <latching/>
                <delay/>
-               <filter>MR3K4:KBO:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 400</filter>
+               <filter>MR3K4:KBO:COATING:STATE:GET_RBV == B4C &amp;&amp; SIOC:SYS0:ML00:AO628 &lt;= 450</filter>
             </pv>
             <pv name="MR3K4:KBO:COATING:STATE:PMPS:ARB:ENABLE_RBV">
                <description>MR3K4 arbiter status</description>
