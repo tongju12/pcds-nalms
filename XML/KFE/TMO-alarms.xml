@@ -340,6 +340,11 @@
                <latching/>
                <delay/>
             </pv>
+            <pv name="TM1K4:ATM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+               <description>TM1K4 arbiter status</description>
+               <latching/>
+               <delay/>
+            </pv>
          </component>
          <component name="TM2K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
@@ -349,6 +354,11 @@
             </pv>
             <pv name="TM2K4:ATM:STC:01:TEMP_RBV">
                <description>Thermocouple 1</description>
+               <latching/>
+               <delay/>
+            </pv>
+            <pv name="TM2K4:ATM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
+               <description>TM2K4 arbiter status</description>
                <latching/>
                <delay/>
             </pv>
@@ -366,6 +376,11 @@
                <latching/>
                <delay/>
                <filter>ST1K4:TEST:MMS:STATE:GET_RBV != PPS:NEH1:1:ST3K4INSUM</filter>
+            </pv>
+            <pv name="ST1K4:TEST:MMS:STATE:ST3K4_AUTO_RBV">
+               <description>ST1K4 follow ST3K4 status</description>
+               <latching/>
+               <delay/>
             </pv>
          </component>
       </component>
@@ -434,6 +449,11 @@
          </pv>
          <pv name="SP1K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="SP1K4:FWM:VAL_RBV">
+            <description>Flow sensor</description>
             <latching/>
             <delay/>
          </pv>
