@@ -66,12 +66,12 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR2K4:KBO:RTD:BEND:US:1_RBV">
+            <pv name="MR2K4:KBO:RTD:CHIN:R_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR2K4:KBO:RTD:BEND:DS:1_RBV">
+            <pv name="MR2K4:KBO:RTD:CHIN:L_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
@@ -99,12 +99,12 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR3K4:KBO:RTD:BEND:US:1_RBV">
+            <pv name="MR3K4:KBO:RTD:CHIN:R_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR3K4:KBO:RTD:BEND:DS:1_RBV">
+            <pv name="MR3K4:KBO:RTD:CHIN:L_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
@@ -452,7 +452,7 @@
             <latching/>
             <delay/>
          </pv>
-         <pv name="SP1K4:FWM:VAL_RBV">
+         <pv name="TMO:SPEC:FWM:VAL_RBV">
             <description>Flow sensor</description>
             <latching/>
             <delay/>
