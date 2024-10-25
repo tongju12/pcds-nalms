@@ -66,12 +66,12 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR2K4:KBO:RTD:CHIN:R_RBV">
+            <pv name="MR2K4:KBO:RTD:CHIN:R:TEMP_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR2K4:KBO:RTD:CHIN:L_RBV">
+            <pv name="MR2K4:KBO:RTD:CHIN:L:TEMP_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
@@ -99,12 +99,12 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR3K4:KBO:RTD:CHIN:R_RBV">
+            <pv name="MR3K4:KBO:RTD:CHIN:R:TEMP_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
             </pv>
-            <pv name="MR3K4:KBO:RTD:CHIN:L_RBV">
+            <pv name="MR3K4:KBO:RTD:CHIN:L:TEMP_RBV">
                <description>Temperature</description>
                <latching/>
                <delay/>
