@@ -111,3 +111,7 @@
 1,IM5K4,,,,,,
 ,,IM5K4:PPM:CAM:TSS:SyncStatus,Camera Sync Status,,,,
 ,,IM5K4:PPM:CAM:TSS:DiffVsIntAvg,Sync Diff,,,,
+1,LASER,,,,,,
+2,QADC,,,,,,
+,,LM1K4:QADC:01:OUT0_EDGE1,QADC signal monitor,,,,
+,,LM1K4:QADC:01:OUT0_EDGE2,QADC signal monitor,,,,
