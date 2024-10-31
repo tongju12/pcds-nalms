@@ -327,6 +327,21 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="TMO:SPEC:FWM:VAL_RBV">
+            <description>Flow sensor</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="TMO:SPEC:RTD:01:TEMP_RBV">
+            <description>Temperature sensor</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="TMO:SPEC:RTD:02:TEMP_RBV">
+            <description>Temperature sensor</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
       <component name="ATM">
          <component name="TM1K4">
@@ -375,7 +390,7 @@
                <description>ST1K4 state</description>
                <latching/>
                <delay/>
-               <filter>ST1K4:TEST:MMS:STATE:GET_RBV != PPS:NEH1:1:ST3K4INSUM</filter>
+               <filter>PPS:NEH1:1:ST3K4INSUM!=0</filter>
             </pv>
             <pv name="ST1K4:TEST:MMS:STATE:ST3K4_AUTO_RBV">
                <description>ST1K4 follow ST3K4 status</description>
@@ -446,24 +461,10 @@
             <description>Camera Sync Status</description>
             <latching/>
             <delay/>
+            <filter>SP1K4:PPM:CAM:TriggerMode_RBV!=0</filter>
          </pv>
          <pv name="SP1K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
-            <latching/>
-            <delay/>
-         </pv>
-         <pv name="TMO:SPEC:FWM:VAL_RBV">
-            <description>Flow sensor</description>
-            <latching/>
-            <delay/>
-         </pv>
-         <pv name="TMO:SPEC:RTD:01:TEMP_RBV">
-            <description>Temperature sensor</description>
-            <latching/>
-            <delay/>
-         </pv>
-         <pv name="TMO:SPEC:RTD:02:TEMP_RBV">
-            <description>Temperature sensor</description>
             <latching/>
             <delay/>
          </pv>
@@ -473,6 +474,7 @@
             <description>Camera Sync Status</description>
             <latching/>
             <delay/>
+            <filter>IM5K4:PPM:CAM:TriggerMode_RBV!=0</filter>
          </pv>
          <pv name="IM5K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
@@ -487,11 +489,13 @@
             <description>QADC signal monitor</description>
             <latching/>
             <delay/>
+            <filter>LM1K4:QADC:01:OUT0_EDGE1&gt;0</filter>
          </pv>
          <pv name="LM1K4:QADC:01:OUT0_EDGE2">
             <description>QADC signal monitor</description>
             <latching/>
             <delay/>
+            <filter>LM1K4:QADC:01:OUT0_EDGE2&gt;0</filter>
          </pv>
       </component>
    </component>
