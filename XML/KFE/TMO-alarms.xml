@@ -457,6 +457,16 @@
             <latching/>
             <delay/>
          </pv>
+         <pv name="TMO:SPEC:RTD:01:TEMP_RBV">
+            <description>Temperature sensor</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="TMO:SPEC:RTD:02:TEMP_RBV">
+            <description>Temperature sensor</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
       <component name="IM5K4">
          <pv name="IM5K4:PPM:CAM:TSS:SyncStatus">
@@ -470,19 +480,19 @@
             <delay/>
          </pv>
       </component>
-      <component name="LASER">
-         <component name="QADC">
-            <pv name="LM1K4:QADC:01:OUT0_EDGE1">
-               <description>QADC signal monitor</description>
-               <latching/>
-               <delay/>
-            </pv>
-            <pv name="LM1K4:QADC:01:OUT0_EDGE2">
-               <description>QADC signal monitor</description>
-               <latching/>
-               <delay/>
-            </pv>
-         </component>
+   </component>
+   <component name="TMO LASER">
+      <component name="QADC">
+         <pv name="LM1K4:QADC:01:OUT0_EDGE1">
+            <description>QADC signal monitor</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="LM1K4:QADC:01:OUT0_EDGE2">
+            <description>QADC signal monitor</description>
+            <latching/>
+            <delay/>
+         </pv>
       </component>
    </component>
 </config>
