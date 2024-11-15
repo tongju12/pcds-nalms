@@ -258,16 +258,6 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="IM6K4:PPM:CAM:TSS:SyncStatus">
-               <description>Camera Sync Status</description>
-               <latching/>
-               <delay/>
-            </pv>
-            <pv name="IM6K4:PPM:CAM:TSS:DiffVsIntAvg">
-               <description>Sync Diff</description>
-               <latching/>
-               <delay/>
-            </pv>
             <pv name="IM6K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM6K4 arbiter status</description>
                <latching/>
@@ -427,6 +417,23 @@
             </pv>
          </component>
       </component>
+      <component name="PMPS">
+         <pv name="PLC:KFE:GATT:FFO:01:FaultHWO_RBV">
+            <description>KFE PMPS fault</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="PLC:TMO:MOTION:FFO:01:FaultHWO_RBV">
+            <description>TMO motion PMPS fault</description>
+            <latching/>
+            <delay/>
+         </pv>
+         <pv name="PLC:TMO:MOTION:FFO:02:FaultHWO_RBV">
+            <description>TMO motion PMPS fault</description>
+            <latching/>
+            <delay/>
+         </pv>
+      </component>
    </component>
    <component name="TMO DAQ">
       <component name="DAQ Damage">
@@ -477,6 +484,19 @@
             <filter>IM5K4:PPM:CAM:TriggerMode_RBV!=0</filter>
          </pv>
          <pv name="IM5K4:PPM:CAM:TSS:DiffVsIntAvg">
+            <description>Sync Diff</description>
+            <latching/>
+            <delay/>
+         </pv>
+      </component>
+      <component name="IM6K4">
+         <pv name="IM6K4:PPM:CAM:TSS:SyncStatus">
+            <description>Camera Sync Status</description>
+            <latching/>
+            <delay/>
+            <filter>IM6K4:PPM:CAM:TriggerMode_RBV!=0</filter>
+         </pv>
+         <pv name="IM6K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
             <latching/>
             <delay/>
