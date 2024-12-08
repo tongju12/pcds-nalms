@@ -1,0 +1,32 @@
+name: Generate Daff
+
+on:
+  pull_request:
+    paths:
+      - 'CSV/**'
+
+jobs:
+  comment-diff:
+    runs-on: ubuntu-20.04
+
+    defaults:
+      run:
+        # The following allows for each run step to utilize ~/.bash_profile
+        # for setting up the per-step initial state.
+        # --login: a login shell. Source ~/.bash_profile
+        # -e: exit on first error
+        # -o pipefail: piped processes are important; fail if they fail
+        shell: bash --login -eo pipefail {0}
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: install requirements
+      run: |
+        pip install --upgrade pip
+        pip install daff
+    - name: daff diff
+      run: |
+        daff git csv
+        gh pr comment $PRNUM --body-file < <(git diff XML/)
