@@ -17,7 +17,8 @@ jobs:
         # -e: exit on first error
         # -o pipefail: piped processes are important; fail if they fail
         shell: bash --login -eo pipefail {0}
-
+    permissions:
+      pull-requests: write
     steps:
     - uses: actions/checkout@v3
       with:
