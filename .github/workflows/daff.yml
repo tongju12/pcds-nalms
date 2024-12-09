@@ -29,4 +29,4 @@ jobs:
     - name: daff diff
       run: |
         daff git csv
-        gh pr comment $PRNUM --body-file < <(git diff XML/)
+        gh pr comment $PRNUM --body-file <(git diff Spreadsheet/)
