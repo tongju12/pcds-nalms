@@ -3,7 +3,7 @@ name: Generate Daff
 on:
   pull_request:
     paths:
-      - 'CSV/**'
+      - 'Spreadsheet/**'
 
 jobs:
   comment-diff:
