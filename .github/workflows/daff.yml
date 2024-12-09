@@ -27,6 +27,8 @@ jobs:
         pip install --upgrade pip
         pip install daff
     - name: daff diff
+      env:
+        GH_TOKEN: ${{ github.token }}
       run: |
         daff git csv
         gh pr comment $PRNUM --body-file <(git diff Spreadsheet/)
