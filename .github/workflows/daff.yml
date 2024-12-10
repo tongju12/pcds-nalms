@@ -29,7 +29,7 @@ jobs:
     - name: make diff
       run: |
         daff git csv
-        git diff HEAD..origin/master > ${{ runner.temp }}/diff.txt
+        git diff origin/master..HEAD > ${{ runner.temp }}/diff.txt
     - name: make comment
       uses: thollander/actions-comment-pull-request@v3
       with:
