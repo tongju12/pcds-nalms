@@ -8,7 +8,7 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MEC:FMS:R64B:HMD">
+            <pv name="MEC:FMS:R64B:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
                <latching/>
                <delay/>
@@ -28,12 +28,12 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MEC:FMS:R64A:TEMP">
+            <pv name="MEC:FMS:R64A:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
                <latching/>
                <delay/>
             </pv>
-            <pv name="MEC:FMS:R64B:TEMP">
+            <pv name="MEC:FMS:R64B:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
                <latching/>
                <delay/>
@@ -139,7 +139,7 @@
                <latching/>
                <delay/>
             </pv>
-            <pv name="MEC:FMS:LAS:GLS:INT:TEMP">
+            <pv name="MEC:FMS:LAS:GLS:INT:TEMP:SVAL_RBV">
                <description>Glass Rod Int Temperature</description>
                <latching/>
                <delay/>
