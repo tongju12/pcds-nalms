@@ -1,4 +1,4 @@
-name: Generate Daff
+name: Comment Diff
 
 on:
   pull_request_target:
@@ -18,20 +18,27 @@ jobs:
         shell: bash --login -eo pipefail {0}
     permissions:
       pull-requests: write
+
     steps:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
+        ref: ${{ github.head_ref }}
+
     - name: install requirements
       run: |
         pip install --upgrade pip
         pip install daff
+
     - name: make diff
       run: |
         daff git csv
-        git diff origin/master..HEAD > ${{ runner.temp }}/diff.txt
+        git config set --global diff.daff-csv.command "daff diff --git --output-format html --fragment --context 0"
+        git remote add target https://github.com/pcdshub/pcds-nalms.git
+        git fetch target
+        git diff target/${{ github.event.pull_request.base.ref }}...HEAD Spreadsheet/ > ${{ runner.temp }}/diff.txt
+
     - name: make comment
       uses: thollander/actions-comment-pull-request@v3
       with:
         file-path: ${{ runner.temp }}/diff.txt
-        comment-tag: csvdiff
