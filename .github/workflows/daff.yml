@@ -1,7 +1,7 @@
 name: Comment Diff
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - 'Spreadsheet/**'
 
@@ -50,7 +50,6 @@ jobs:
         # set as env var to handle escaping
         DIFF_OUTPUT: ${{ steps.make_diff.outputs.DIFF_OUTPUT }}
       with:
-        github-token: ${{ secrets.COMMENT_TOKEN }}
         script: |
             github.rest.issues.createComment({
               issue_number: context.issue.number,
