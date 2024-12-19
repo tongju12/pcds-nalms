@@ -41,9 +41,11 @@ jobs:
           script: |
             var fs = require('fs');
             var issue_number = Number(fs.readFileSync('./NR'));
+            var diff_text = String(fs.readFileSync('./diff.txt'));
+
             await github.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue_number,
-              body: 'Everything is OK. Thank you for the PR!'
+              body: diff_text 
             });

@@ -32,20 +32,13 @@ jobs:
         pip install daff
 
     - name: make diff
-      id: make_diff
       run: |
         daff git csv
         git config set --global diff.daff-csv.command "daff diff --git --output-format html --fragment --context 0"
         git remote add target https://github.com/pcdshub/pcds-nalms.git
         git fetch target
-        git diff target/${{ github.event.pull_request.base.ref }}...HEAD Spreadsheet/ > ${{ runner.temp }}/diff.txt
-        echo 'DIFF_OUTPUT<<EOF' > $GITHUB_OUTPUT
-        cat ${{ runner.temp }}/diff.txt >> $GITHUB_OUTPUT
-        echo 'EOF' >> $GITHUB_OUTPUT
-
-    - name: Save PR number
-      run: |
         mkdir -p ./pr
+        git diff target/${{ github.event.pull_request.base.ref }}...HEAD Spreadsheet/ > pr/diff.txt
         echo ${{ github.event.number }} > ./pr/NR
 
     - uses: actions/upload-artifact@v4
