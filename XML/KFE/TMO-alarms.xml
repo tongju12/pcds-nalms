@@ -5,143 +5,143 @@
          <component name="MR1K4">
             <pv name="MR1K4:SOMS:FWM:1_RBV">
                <description>Flow sensor 1</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:FWM:2_RBV">
                <description>Flow sensor 2</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:PRSM:1_RBV">
                <description>Cool pressure</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:PIP:01:PRESS_RBV">
                <description>MR1K4 ion pump</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:GCC:1:PRESS_RBV">
                <description>GCC</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:COATING:STATE:GET_RBV">
                <description>MR1K4 Coating</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
                <filter>SIOC:SYS0:ML00:AO628 &lt;= 400 &amp; MR1K1:BEND:COATING:STATE:GET_RBV==B4C</filter>
             </pv>
             <pv name="MR1K4:SOMS:GANTRY_X_RBV">
                <description>Gantry X</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:GANTRY_Y_RBV">
                <description>Gantry Y</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR1K4:SOMS:COATING:STATE:PMPS:ARB:ENABLE_RBV">
                <description>MR1K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="MR2K4">
             <pv name="MR2K4:KBO:FWM:1_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:PRSM:1_RBV">
                <description>Cool pressure</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:PIP:01:PRESS_RBV">
                <description>MR2K4 ion pump</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:RTD:CHIN:R:TEMP_RBV">
                <description>Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:RTD:CHIN:L:TEMP_RBV">
                <description>Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:GCC:01:PRESS_RBV">
                <description>GCC</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR2K4:KBO:COATING:STATE:GET_RBV">
                <description>MR2K4 Coating</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
                <filter>SIOC:SYS0:ML00:AO628 &lt;= 400 &amp; PPS:NEH1:1:ST3K4INSUM!=1</filter>
             </pv>
             <pv name="MR2K4:KBO:COATING:STATE:PMPS:ARB:ENABLE_RBV">
                <description>MR2K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="MR3K4">
             <pv name="MR3K4:KBO:FWM:1_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR3K4:KBO:RTD:CHIN:R:TEMP_RBV">
                <description>Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR3K4:KBO:RTD:CHIN:L:TEMP_RBV">
                <description>Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR3K4:KBO:COATING:STATE:GET_RBV">
                <description>MR3K4 Coating</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
                <filter>SIOC:SYS0:ML00:AO628 &lt;= 400 &amp; PPS:NEH1:1:ST3K4INSUM!=1</filter>
             </pv>
             <pv name="MR3K4:KBO:COATING:STATE:PMPS:ARB:ENABLE_RBV">
                <description>MR3K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="MR4K4">
             <pv name="MR4K4:KBO:RTD:CHIN:L:TEMP_RBV">
                <description>Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR4K4:KBO:PIP:01:PRESS_RBV">
                <description>MR4K4 ion pump</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="MR4K4:KBO:GCC:01:PRESS_RBV">
                <description>GCC</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="MR5K4">
             <pv name="MR5K4:KBO:RTD:CHIN:L:TEMP_RBV">
                <description>Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -150,117 +150,117 @@
          <component name="IM1K4">
             <pv name="IM1K4:XTES:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM1K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="IM2K4">
             <pv name="IM2K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM2K4:PPM:SPM:STC:TEMP_RBV">
                <description>PM thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM2K4:PPM:YAG:STC:TEMP_RBV">
                <description>YAG thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM2K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM2K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="IM3K4">
             <pv name="IM4K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM3K4:PPM:SPM:STC:TEMP_RBV">
                <description>PM thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM3K4:PPM:YAG:STC:TEMP_RBV">
                <description>YAG thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM3K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM3K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="IM4K4">
             <pv name="IM4K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM4K4:PPM:SPM:STC:TEMP_RBV">
                <description>PM thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM4K4:PPM:YAG:STC:TEMP_RBV">
                <description>YAG thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM4K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM4K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="IM5K4">
             <pv name="IM5K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM5K4:PPM:SPM:STC:TEMP_RBV">
                <description>PM thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM5K4:PPM:YAG:STC:TEMP_RBV">
                <description>YAG thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM5K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM5K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="IM6K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM6K4:PPM:SPM:STC:TEMP_RBV">
                <description>PM thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM6K4:PPM:YAG:STC:TEMP_RBV">
                <description>YAG thermocouple</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="IM6K4:PPM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>IM6K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -269,44 +269,44 @@
          <component name="PF1K4">
             <pv name="IM5K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="PF1K4:WFS:STC:01:TEMP_RBV">
                <description>Thermocouple 1</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="PF1K4:WFS:STC:02:TEMP_RBV">
                <description>Thermocouple 2</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="PF1K4:WFS:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>PF1K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="PF2K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="PF2K4:WFS:STC:01:TEMP_RBV">
                <description>Thermocouple 1</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="PF2K4:WFS:STC:02:TEMP_RBV">
                <description>Thermocouple 2</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="PF2K4:WFS:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>PF2K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -314,22 +314,22 @@
       <component name="SP1K4">
          <pv name="SP1K4:FZP:STATE:PMPS:ARB:ENABLE_RBV">
             <description>SP1K4 zoneplate arbiter status</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="TMO:SPEC:FWM:VAL_RBV">
             <description>Flow sensor</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="TMO:SPEC:RTD:01:TEMP_RBV">
             <description>Temperature sensor</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="TMO:SPEC:RTD:02:TEMP_RBV">
             <description>Temperature sensor</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
@@ -337,34 +337,34 @@
          <component name="TM1K4">
             <pv name="IM5K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="TM1K4:ATM:STC:01:TEMP_RBV">
                <description>Thermocouple 1</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="TM1K4:ATM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>TM1K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="TM2K4">
             <pv name="IM6K4:PPM:FWM:VAL_RBV">
                <description>Flow sensor</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="TM2K4:ATM:STC:01:TEMP_RBV">
                <description>Thermocouple 1</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="TM2K4:ATM:MMS:STATE:PMPS:ARB:ENABLE_RBV">
                <description>TM2K4 arbiter status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -373,18 +373,18 @@
          <component name="ST1K4">
             <pv name="ST1K4:TEST:MMS:STATE:ERR_RBV">
                <description>ST1K4 error state</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="ST1K4:TEST:MMS:STATE:GET_RBV">
                <description>ST1K4 state</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
                <filter>PPS:NEH1:1:ST3K4INSUM!=0</filter>
             </pv>
             <pv name="ST1K4:TEST:MMS:STATE:ST3K4_AUTO_RBV">
                <description>ST1K4 follow ST3K4 status</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -393,7 +393,7 @@
          <component name="Main Chamber Pressure">
             <pv name="TMO:IP1:MAIN:GAUGE:PRESS_RBV">
                <description>Gauge pressure</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -402,17 +402,17 @@
          <component name="Failing gauges (2 out of 3)">
             <pv name="LI2K4:IP1:GFS:01:PRESS_RBV">
                <description>GCC</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="LI2K4:IP1:GFS:02:PRESS_RBV">
                <description>GCC</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="LI2K4:IP1:GFS:03:PRESS_RBV">
                <description>GCC</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
@@ -420,17 +420,17 @@
       <component name="PMPS">
          <pv name="PLC:KFE:GATT:FFO:01:FaultHWO_RBV">
             <description>KFE PMPS fault</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="PLC:TMO:MOTION:FFO:01:FaultHWO_RBV">
             <description>TMO motion PMPS fault</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="PLC:TMO:MOTION:FFO:02:FaultHWO_RBV">
             <description>TMO motion PMPS fault</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
@@ -439,66 +439,66 @@
       <component name="DAQ Damage">
          <pv name="pva://DAQ:NEH:tmo:0:DeadFrac">
             <description/>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="pva://DAQ:NEH:tmo:0:Damage_hsd">
             <description/>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="pva://DAQ:NEH:tmo:0:Damage_bld">
             <description/>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="pva://DAQ:NEH:tmo:0:Damage_epics">
             <description/>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="pva://DAQ:NEH:tmo:0:Damage_atm">
             <description/>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="SP1K4">
          <pv name="SP1K4:PPM:CAM:TSS:SyncStatus">
             <description>Camera Sync Status</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
             <filter>SP1K4:PPM:CAM:TriggerMode_RBV!=0</filter>
          </pv>
          <pv name="SP1K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM5K4">
          <pv name="IM5K4:PPM:CAM:TSS:SyncStatus">
             <description>Camera Sync Status</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
             <filter>IM5K4:PPM:CAM:TriggerMode_RBV!=0</filter>
          </pv>
          <pv name="IM5K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM6K4">
          <pv name="IM6K4:PPM:CAM:TSS:SyncStatus">
             <description>Camera Sync Status</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
             <filter>IM6K4:PPM:CAM:TriggerMode_RBV!=0</filter>
          </pv>
          <pv name="IM6K4:PPM:CAM:TSS:DiffVsIntAvg">
             <description>Sync Diff</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
@@ -507,13 +507,13 @@
       <component name="QADC">
          <pv name="LM1K4:QADC:01:OUT0_EDGE1">
             <description>QADC signal monitor</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
             <filter>LM1K4:QADC:01:OUT0_EDGE1&gt;0</filter>
          </pv>
          <pv name="LM1K4:QADC:01:OUT0_EDGE2">
             <description>QADC signal monitor</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
             <filter>LM1K4:QADC:01:OUT0_EDGE2&gt;0</filter>
          </pv>

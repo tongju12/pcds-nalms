@@ -5,153 +5,153 @@
          <component name="Racks">
             <pv name="FMS:MEC:R64A:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R64B:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R60:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R61:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R62:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R64A:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R64B:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R60:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R61:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R62:TEMP:SVAL_RBV">
                <description>Rack Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="Floor">
             <pv name="FMS:MEC:R64B:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R64A:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:SE:PCW:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:LOT:3:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:LOT:1:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:LAS:RRK:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:TC:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:S67A:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:R61:FLR:WLD:SEVR_RBV">
                <description>Fluid Leak Detection</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="PCW">
             <pv name="FMS:MEC:S67A:PCW:TEMP">
                <description>PCW Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:TC:PCW:TEMP">
                <description>PCW Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:S64A:PCW:TEMP">
                <description>PCW Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:LAS:RRK:PCW:TEMP">
                <description>PCW Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:SE:PCW:FWM:SUP">
                <description>PCW Flow Supply</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:SE:PCW:FWM:RET">
                <description>PCW Flow Return</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>
          <component name="Laser">
             <pv name="FMS:MEC:VISAR:TEMP:SVAL_RBV">
                <description>Visar Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:LAS:GLS:INT:TEMP:SVAL_RBV">
                <description>Glass Rod Int Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:LAS:GLS:EXT:TEMP:SVAL_RBV">
                <description>Glass Rod Ext Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
             <pv name="FMS:MEC:YFE:TEMP:SVAL_RBV">
                <description>YFE Temperature</description>
-               <latching/>
+               <latching>True</latching>
                <delay/>
             </pv>
          </component>

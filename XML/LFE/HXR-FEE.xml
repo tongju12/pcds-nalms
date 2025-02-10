@@ -4,34 +4,34 @@
       <component name="MR1L0:HOMS">
          <pv name="MR1L0:HOMS:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1L0:HOMS:FWM:2_RBV">
             <description>FLOW SENSOR 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1L0:HOMS:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="MR2L0:HOMS">
          <pv name="MR2L0:HOMS:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR2L0:HOMS:FWM:2_RBV">
             <description>FLOW SENSOR 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR2L0:HOMS:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>

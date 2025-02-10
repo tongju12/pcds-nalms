@@ -4,175 +4,175 @@
       <component name="MR1K1:BEND">
          <pv name="MR1K1:BEND:RTD:US:1_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K1:BEND:RTD:DS:1_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K1:BEND:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K1:BEND:FWM:2_RBV">
             <description>FLOW SENSOR 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K1:BEND:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K1:BEND:PIP:1:PRESS_RBV">
             <description>MR1K1 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K1:BEND:PIP:1:STATE_RBV">
             <description>MR1K1 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM1K1:PPM">
          <pv name="IM1K1:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM1K1:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM1K1:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="SP1K1:MONO">
          <pv name="SP1K1:MONO:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:FWM:2_RBV">
             <description>FLOW SENSOR 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:01:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:02:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:03:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:04:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:05:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:06:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:07:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:RTD:08:TEMP_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:PIP:1:PRESS_RBV">
             <description>SP1K1 ION PUMP 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:PIP:1:STATE_RBV">
             <description>SP1K1 ION PUMP 1 STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:PIP:2:PRESS_RBV">
             <description>SP1K1 ION PUMP 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SP1K1:MONO:PIP:2:STATE_RBV">
             <description>SP1K1 ION PUMP 2 STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM2K1:PPM">
          <pv name="IM2K1:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM2K1:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM2K1:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="MR1K2:SWITCH">
          <pv name="MR1K2:SWITCH:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K2:SWITCH:FWM:2_RBV">
             <description>FLOW SENSOR 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K2:SWITCH:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K2:SWITCH:PIP:1:PRESS_RBV">
             <description>MR1K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR1K2:SWITCH:PIP:1:STATE_RBV">
             <description>MR1K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
@@ -181,22 +181,22 @@
       <component name="SL1K2:EXIT">
          <pv name="SL1K2:EXIT:RTD:YAG:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SL1K2:EXIT:RTD:CRYSTAL_TOP:TEMP_RBV">
             <description>UPPER CRYSTAL THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SL1K2:EXIT:RTD:CRYSTAL_BOTTOM:TEMP_RBV">
             <description>LOWER CRYSTAL THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="SL1K2:EXIT:RTD:HeatSync:TEMP_RBV">
             <description>HEAT SINK THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
@@ -205,271 +205,271 @@
       <component name="IM1K2:PPM">
          <pv name="IM1K2:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM1K2:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM1K2:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="MR2K2:FLAT">
          <pv name="MR2K2:FLAT:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR2K2:FLAT:FWM:2_RBV">
             <description>FLOW SENSOR 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR2K2:FLAT:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR2K2:FLAT:PIP:1:PRESS_RBV">
             <description>MR2K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR2K2:FLAT:PIP:1:STATE_RBV">
             <description>MR2K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM2K2:PPM">
          <pv name="IM2K2:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM2K2:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM2K2:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM2K2:PPM:PIP:1:PRESS_RBV">
             <description>IM2K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM2K2:PPM:PIP:1:STATE_RBV">
             <description>IM2K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="MR3K2:KBH">
          <pv name="MR3K2:KBH:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR3K2:KBH:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR3K2:KBH:RTD:BEND:US:1_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR3K2:KBH:RTD:BEND:DS:1_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR3K2:KBH:PIP:1:PRESS_RBV">
             <description>MR3K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR3K2:KBH:PIP:1:STATE_RBV">
             <description>MR3K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM3K2:PPM">
          <pv name="IM3K2:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM3K2:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM3K2:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM3K2:PPM:PIP:1:PRESS_RBV">
             <description>IM3K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM3K2:PPM:PIP:1:STATE_RBV">
             <description>IM3K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="MR4K2:KBV">
          <pv name="MR4K2:KBV:FWM:1_RBV">
             <description>FLOW SENSOR 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR4K2:KBV:PRSM:1_RBV">
             <description>COOL PRESSURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR4K2:KBV:RTD:BEND:US:1_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR4K2:KBV:RTD:BEND:DS:1_RBV">
             <description>TEMPERATURE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR4K2:KBV:PIP:1:PRESS_RBV">
             <description>MR4K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="MR4K2:KBV:PIP:1:STATE_RBV">
             <description>MR4K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM4K2:PPM">
          <pv name="IM4K2:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM4K2:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM4K2:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM4K2:PPM:PIP:1:PRESS_RBV">
             <description>IM4K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM4K2:PPM:PIP:1:STATE_RBV">
             <description>IM4K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="TM1K2:ATM">
          <pv name="TM1K2:ATM:STC:01:TEMP_RBV">
             <description>THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="PF1K2:WFS">
          <pv name="PF1K2:WFS:STC:01:TEMP_RBV">
             <description>THERMOCOUPLE 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="PF1K2:WFS:STC:02:TEMP_RBV">
             <description>THERMOCOUPLE 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM5K2:PPM">
          <pv name="IM5K2:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM5K2:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM5K2:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM5K2:PPM:PIP:1:PRESS_RBV">
             <description>IM5K2 ION PUMP</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM5K2:PPM:PIP:1:STATE_RBV">
             <description>IM5K2 ION PUMP STATE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="TM2K2:ATM">
          <pv name="TM2K2:ATM:STC:01:TEMP_RBV">
             <description>THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="PF2K2:WFS">
          <pv name="PF2K2:WFS:STC:01:TEMP_RBV">
             <description>THERMOCOUPLE 1</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="PF2K2:WFS:STC:02:TEMP_RBV">
             <description>THERMOCOUPLE 2</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
       <component name="IM6K2:PPM">
          <pv name="IM6K2:PPM:SPM:VOLT_RBV">
             <description>PM VOLTAGE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM6K2:PPM:SPM:STC:TEMP_RBV">
             <description>PM THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
          <pv name="IM6K2:PPM:YAG:STC:TEMP_RBV">
             <description>YAG THERMOCOUPLE</description>
-            <latching/>
+            <latching>True</latching>
             <delay/>
          </pv>
       </component>
