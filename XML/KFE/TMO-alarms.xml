@@ -518,5 +518,12 @@
             <filter>LM1K4:QADC:01:OUT0_EDGE2&gt;0</filter>
          </pv>
       </component>
+      <component name="LASER PHASE MOTOR">
+         <pv name="LAS:LHN:LLG2:01:PHAS:ERROR">
+            <description>Laser phase feedback</description>
+            <latching>True</latching>
+            <delay/>
+         </pv>
+      </component>
    </component>
 </config>
