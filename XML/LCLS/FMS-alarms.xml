@@ -2,6 +2,11 @@
 <config name="FMS-alarms">
    <component name="LCLS DEVICES">
       <component name="MEC">
+         <pv name="FMS:MEC:CEIL:TEMP:SVAL_RBV">
+            <description>MEC Amb Air Temp Ceiling</description>
+            <latching>True</latching>
+            <delay/>
+         </pv>
          <component name="Racks">
             <pv name="FMS:MEC:R64A:HMD:SVAL_RBV">
                <description>Rack Humidity</description>
@@ -134,23 +139,18 @@
             </pv>
          </component>
          <component name="Laser">
-            <pv name="FMS:MEC:VISAR:TEMP:SVAL_RBV">
-               <description>Visar Temperature</description>
-               <latching>True</latching>
-               <delay/>
-            </pv>
             <pv name="FMS:MEC:LAS:GLS:INT:TEMP:SVAL_RBV">
                <description>Glass Rod Int Temperature</description>
                <latching>True</latching>
                <delay/>
             </pv>
-            <pv name="FMS:MEC:LAS:GLS:EXT:TEMP:SVAL_RBV">
-               <description>Glass Rod Ext Temperature</description>
+            <pv name="FMS:MEC:YFE:EXT:TEMP:SVAL_RBV">
+               <description>YFE EXT Temperature</description>
                <latching>True</latching>
                <delay/>
             </pv>
-            <pv name="FMS:MEC:YFE:TEMP:SVAL_RBV">
-               <description>YFE Temperature</description>
+            <pv name="FMS:MEC:YFE:INT:TEMP:SVAL_RBV">
+               <description>YFE INT Temperature</description>
                <latching>True</latching>
                <delay/>
             </pv>
