@@ -34,7 +34,7 @@ def csvtoxml(infile, outfile, cname):
                     severity = pv_name[0:5].lower()
                     if severity != 'major' and severity != 'minor':
                         raise ValueError('formula must being with major or minor but got {severity}')
-                    calc_expression = re.sub(r'([a-zA-Z0-9_\-:.\[\]<>;]+:[a-zA-Z0-9_\-:.\[\]<>;]+)', r'\1', pv_name[8:])
+                    calc_expression = pv_name[8:]
                     pv_name = f'eq://{severity}Alarm({calc_expression}, "")'
                     print(pv_name)
                 pv.set('name', pv_name)
