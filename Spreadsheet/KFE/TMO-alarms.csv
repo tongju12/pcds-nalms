@@ -124,3 +124,4 @@
 ,,LM1K4:QADC:01:OUT0_EDGE2,QADC signal monitor,,,LM1K4:QADC:01:OUT0_EDGE2>0,
 1,LASER PHASE MOTOR,,,,,,
 ,,LAS:LHN:LLG2:01:PHAS:ERROR,Laser phase feedback,,,,
+,,minor://(abs(SL1K0:POWER:ACTUAL_YWIDTH_RBV) * 1000) > AT1K0:GAS_MA_Y:MMS:1,slits too wide,,,,
