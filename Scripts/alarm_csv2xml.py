@@ -38,7 +38,6 @@ def csvtoxml(infile, outfile, cname):
                     elif protocol == 'major' or protocol == 'minor':
                         calc_expression = pv_tokens[1]
                         pv_name = f'eq://{protocol}Alarm({calc_expression}, "")'
-                        print(pv_name)
                     else:
                         raise ValueError(f'Got unsupported protocol "{protocol}" in {pv_name}')
                 pv.set('name', pv_name)
