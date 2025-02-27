@@ -30,13 +30,17 @@ def csvtoxml(infile, outfile, cname):
             else:
                 pv = ET.SubElement(stack[-1], 'pv')
                 pv_name = row['PV']
-                if pv_name.find('://') == 5:
-                    severity = pv_name[0:5].lower()
-                    if severity != 'major' and severity != 'minor':
-                        raise ValueError('formula must being with major or minor but got {severity}')
-                    calc_expression = pv_name[8:]
-                    pv_name = f'eq://{severity}Alarm({calc_expression}, "")'
-                    print(pv_name)
+                pv_tokens = pv_name.split('://', 1)
+                if len(pv_tokens) == 2:
+                    protocol = pv_tokens[0].lower()
+                    if protocol == 'ca' or protocol == 'pva':
+                        pass
+                    elif protocol == 'major' or protocol == 'minor':
+                        calc_expression = pv_tokens[1]
+                        pv_name = f'eq://{protocol}Alarm({calc_expression}, "")'
+                        print(pv_name)
+                    else:
+                        raise ValueError(f'Got unsupported protocol "{protocol}" in {pv_name}')
                 pv.set('name', pv_name)
                 desc = ET.SubElement(pv, 'description')
                 desc.text = row['Description']
