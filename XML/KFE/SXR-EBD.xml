@@ -231,22 +231,18 @@
             <delay>0</delay>
          </pv>
          <pv name="RTDSK0:VGC:1:ERR_DifPres_RBV">
-            <description/>
             <latching>True</latching>
             <delay>0</delay>
          </pv>
          <pv name="RTDSK0:VGC:1:ERR_SP_RBV">
-            <description/>
             <latching>True</latching>
             <delay>0</delay>
          </pv>
          <pv name="RTDSK0:VGC:1:ERR_Ext_RBV">
-            <description/>
             <latching>True</latching>
             <delay>0</delay>
          </pv>
          <pv name="RTDSK0:VGC:1:MPS_OK_RBV">
-            <description/>
             <latching>True</latching>
             <delay>0</delay>
          </pv>
