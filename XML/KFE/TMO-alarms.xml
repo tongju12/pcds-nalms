@@ -438,6 +438,10 @@
             <description>AMPHOS TRIP</description>
             <latching>False</latching>
          </pv>
+         <pv name="LAS:LHN:LLG2:01:CALIB:CALIBRATED">
+            <description>Laser Timing Enable</description>
+            <latching>False</latching>
+         </pv>
       </component>
    </component>
    <component name="KFE BEAMLINES">
