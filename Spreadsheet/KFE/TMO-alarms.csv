@@ -113,6 +113,8 @@
 ,,PLC:KFE:GATT:FFO:01:FaultHWO_RBV,KFE PMPS fault,FALSE,,,
 ,,PLC:TMO:MOTION:FFO:01:FaultHWO_RBV,TMO motion PMPS fault,FALSE,,,
 ,,PLC:TMO:MOTION:FFO:02:FaultHWO_RBV,TMO motion PMPS fault,FALSE,,,
+,,major://EM1K0:GMD:HPS:AvgPulseIntensity>PMPS:KFE:IntensityJF_RBV,PMPS override error,FALSE,,,
+,,major://EM1K0:GMD:HPS:milliJoulesPerPulse_1MIN_AVG>PMPS:KFE:IntensityJF_RBV,PMPS override error,FALSE,,,
 0,TMO DAQ,,,,,,
 1,DAQ Damage,,,,,,
 ,,pva://DAQ:NEH:tmo:0:DeadFrac,,FALSE,,,
