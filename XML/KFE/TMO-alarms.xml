@@ -332,6 +332,40 @@
                <latching>False</latching>
             </pv>
          </component>
+         <component name="ThermoCouple in User Panel">
+            <pv name="TMO:USR:BHC:TC:1">
+               <description>thermocouple_01</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:2">
+               <description>thermocouple_02</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:3">
+               <description>thermocouple_03</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:4">
+               <description>thermocouple_04</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:5">
+               <description>thermocouple_05</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:6">
+               <description>thermocouple_06</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:7">
+               <description>thermocouple_07</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:USR:BHC:TC:8">
+               <description>thermocouple_08</description>
+               <latching>False</latching>
+            </pv>
+         </component>
       </component>
       <component name="LI2K4">
          <component name="Failing gauges (2 out of 3)">
