@@ -396,6 +396,14 @@
             <description>TMO motion PMPS fault</description>
             <latching>False</latching>
          </pv>
+         <pv name="eq://majorAlarm(EM1K0:GMD:HPS:AvgPulseIntensity&gt;PMPS:KFE:IntensityJF_RBV, &quot;&quot;)">
+            <description>PMPS override error</description>
+            <latching>False</latching>
+         </pv>
+         <pv name="eq://majorAlarm(EM1K0:GMD:HPS:milliJoulesPerPulse_1MIN_AVG&gt;PMPS:KFE:IntensityJF_RBV, &quot;&quot;)">
+            <description>PMPS override error</description>
+            <latching>False</latching>
+         </pv>
       </component>
    </component>
    <component name="TMO DAQ">
