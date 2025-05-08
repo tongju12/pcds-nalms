@@ -404,6 +404,10 @@
             <description>PMPS override error</description>
             <latching>False</latching>
          </pv>
+         <pv name="eq://majorAlarm(SP1K4:ATT:STATE:PMPS:ARB:ENABLE_RBV==0&amp;(EM2K0:XGMD:HPS:PWR&gt;500&amp;SP1K4:ATT:STATE:GET_RBV==2||EM2K0:XGMD:HPS:PWR&gt;7000&amp;SP1K4:ATT:STATE:GET_RBV==3||EM2K0:XGMD:HPS:PWR&gt;7000&amp;SP1K4:ATT:STATE:GET_RBV==4||EM2K0:XGMD:HPS:PWR&gt;140000&amp;SP1K4:ATT:STATE:GET_RBV==5||EM2K0:XGMD:HPS:PWR&gt;140000&amp;SP1K4:ATT:STATE:GET_RBV==6), &quot;&quot;)">
+            <description>SP1K4-ATT average power fault</description>
+            <latching>False</latching>
+         </pv>
       </component>
    </component>
    <component name="TMO DAQ">
