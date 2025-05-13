@@ -126,6 +126,11 @@
          </pv>
       </component>
       <component name="GMD Keithley">
+         <pv name="EM1K0:GMD:ETM:01:GetIntCycles">
+            <description>Integration Time</description>
+            <latching>False</latching>
+            <delay>0</delay>
+         </pv>
          <pv name="EM1K0:GMD:ETM:01:SelectCurrentRange">
             <description>Current range</description>
             <latching>False</latching>
@@ -401,6 +406,11 @@
          </pv>
       </component>
       <component name="XGMD Keithley">
+         <pv name="EM2K0:XGMD:ETM:01:GetIntCycles">
+            <description>Integration Time</description>
+            <latching>False</latching>
+            <delay>0</delay>
+         </pv>
          <pv name="EM2K0:XGMD:ETM:01:SelectCurrentRange">
             <description>Current range Keithley 1</description>
             <latching>False</latching>
@@ -433,6 +443,11 @@
          </pv>
          <pv name="EM2K0:XGMD:ETM:01:PutFunction">
             <description>Measurement function Keithley 1</description>
+            <latching>False</latching>
+            <delay>0</delay>
+         </pv>
+         <pv name="EM2K0:XGMD:ETM:02:GetIntCycles">
+            <description>Integration Time</description>
             <latching>False</latching>
             <delay>0</delay>
          </pv>
