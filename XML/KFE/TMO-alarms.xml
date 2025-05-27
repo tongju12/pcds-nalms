@@ -380,12 +380,12 @@
             <pv name="DREAM:MC:GHC:02:PRESS_RBV">
                <description>dream main chamber pressure</description>
                <latching>False</latching>
-               <filter>DREAM:DP1:GHC:01:STATE_RBV == 5</filter>
+               <filter>DREAM:MC:GHC:02:STATE_RBV == 5</filter>
             </pv>
             <pv name="DREAM:MC:GHC:01:PRESS_RBV">
                <description>dream main chamber pressure</description>
                <latching>False</latching>
-               <filter>DREAM:DP1:GHC:01:STATE_RBV == 5</filter>
+               <filter>DREAM:MC:GHC:01:STATE_RBV == 5</filter>
             </pv>
          </component>
          <component name="Thermocouples">
