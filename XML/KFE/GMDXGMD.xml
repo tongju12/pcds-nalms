@@ -193,6 +193,16 @@
                <latching>False</latching>
                <delay>0</delay>
             </pv>
+            <pv name="EM1K0:GMD:HPS:RunningAvgDisCycleNum">
+               <description>Background noise disable</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="EM1K0:GMD:HPS:PulseAutoScale">
+               <description>Auto-calculation activation</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
          </component>
          <component name="GMD timing system">
             <pv name="TPR:FEES:GD01:0:RXLNKSTATUS">
@@ -210,23 +220,33 @@
                <latching>False</latching>
                <delay>0</delay>
             </pv>
-            <pv name="TPR:FEES:GD01:0:CH01_SYS0_TCTL">
-               <description>Calculation channel enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
             <pv name="TPR:FEES:GD01:0:TRG01_SYS0_TCTL">
-               <description>Calculation trigger enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
-            <pv name="TPR:FEES:GD01:0:CH01_EVCODE">
-               <description>Calculation event code</description>
+               <description>Calculation trigger NC enabled</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
             <pv name="TPR:FEES:GD01:0:TRG01_SYS0_TDES">
-               <description>Calculation trigger delay</description>
+               <description>Calculation trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG01_SYS2_TCTL">
+               <description>Calculation trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG01_SYS2_TDES">
+               <description>Calculation trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_SYS0_TCTL">
+               <description>Calculation channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_EVCODE">
+               <description>Calculation channel NC event code</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
@@ -235,33 +255,223 @@
                <latching>False</latching>
                <delay>0</delay>
             </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_SYS2_TCTL">
+               <description>Calculation channel SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_DESTMODE">
+               <description>Calculation channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_DESTMASK">
+               <description>Calculation channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_RATEMODE">
+               <description>Calculation channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_SEQNUM">
+               <description>Calculation channel sequence engine</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH01_SEQBIT">
+               <description>Calculation channel sequence bit</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG05_SOURCE">
+               <description>Full rate calc trigger source</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG05_SYS0_TCTL">
+               <description>Full rate calc trigger NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG05_SYS0_TDES">
+               <description>Full rate calc trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG05_SYS2_TCTL">
+               <description>Full rate calc trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG05_SYS2_TDES">
+               <description>Full rate calc trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_SYS0_TCTL">
+               <description>Full rate calc channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_EVCODE">
+               <description>Full rate calc channel NC event code</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_SYS2_TCTL">
+               <description>Full rate calc channel SC enable</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_DESTMODE">
+               <description>Full rate calc channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_DESTMASK">
+               <description>Full rate calc channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_RATEMODE">
+               <description>Full rate calc channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH05_FIXEDRATE">
+               <description>Full rate calc channel fixed rate</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG11_SOURCE">
+               <description>Diag bus trigger source</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG11_SYS0_TCTL">
+               <description>Diag bus trigger NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG11_SYS0_TDES">
+               <description>Diag bus trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG11_SYS2_TCTL">
+               <description>Diag bus trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG11_SYS2_TDES">
+               <description>Diag bus trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_SYS0_TCTL">
+               <description>Diag bus channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_EVCODE">
+               <description>Diag bus channel NC event code</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_SYS2_TCTL">
+               <description>Diag bus channel SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_DESTMODE">
+               <description>Diag bus channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_DESTMASK">
+               <description>Diag bus channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_RATEMODE">
+               <description>Diag bus channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH11_FIXEDRATE">
+               <description>Diag bus channel fixed rate</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
             <pv name="TPR:FEES:GD01:0:TRG13_SOURCE">
                <description>Waveform trigger source</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
-            <pv name="TPR:FEES:GD01:0:CH13_SYS0_TCTL">
-               <description>Waveform channel enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
             <pv name="TPR:FEES:GD01:0:TRG13_SYS0_TCTL">
-               <description>Waveform trigger enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
-            <pv name="TPR:FEES:GD01:0:CH13_EVCODE">
-               <description>Waveform event code</description>
+               <description>Waveform trigger NC enabled</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
             <pv name="TPR:FEES:GD01:0:TRG13_SYS0_TDES">
-               <description>Waveform trigger delay</description>
+               <description>Waveform trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG13_SYS2_TCTL">
+               <description>Waveform trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:TRG13_SYS2_TDES">
+               <description>Waveform trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_SYS0_TCTL">
+               <description>Waveform channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_EVCODE">
+               <description>Waveform channel NC event code</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
             <pv name="TPR:FEES:GD01:0:CH13_RATE">
                <description>Waveform event rate</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_SYS2_TCTL">
+               <description>Waveform channel SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_DESTMODE">
+               <description>Waveform channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_DESTMASK">
+               <description>Waveform channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_RATEMODE">
+               <description>Waveform channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_SEQNUM">
+               <description>Waveform channel sequence engine</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD01:0:CH13_SEQBIT">
+               <description>Waveform channel sequence bit</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
@@ -513,6 +723,16 @@
                <latching>False</latching>
                <delay>0</delay>
             </pv>
+            <pv name="EM2K0:XGMD:HPS:RunningAvgDisCycleNum">
+               <description>Background noise disable</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="EM2K0:XGMD:HPS:PulseAutoScale">
+               <description>Auto-calculation activation</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
          </component>
          <component name="XGMD timing system">
             <pv name="TPR:FEES:GD02:0:RXLNKSTATUS">
@@ -530,23 +750,33 @@
                <latching>False</latching>
                <delay>0</delay>
             </pv>
-            <pv name="TPR:FEES:GD02:0:CH01_SYS0_TCTL">
-               <description>Calculation channel enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
             <pv name="TPR:FEES:GD02:0:TRG01_SYS0_TCTL">
-               <description>Calculation trigger enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
-            <pv name="TPR:FEES:GD02:0:CH01_EVCODE">
-               <description>Calculation event code</description>
+               <description>Calculation trigger NC enabled</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
             <pv name="TPR:FEES:GD02:0:TRG01_SYS0_TDES">
-               <description>Calculation trigger delay</description>
+               <description>Calculation trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG01_SYS2_TCTL">
+               <description>Calculation trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG01_SYS2_TDES">
+               <description>Calculation trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_SYS0_TCTL">
+               <description>Calculation channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_EVCODE">
+               <description>Calculation NC event code</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
@@ -555,33 +785,223 @@
                <latching>False</latching>
                <delay>0</delay>
             </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_SYS2_TCTL">
+               <description>Calculation channel SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_DESTMODE">
+               <description>Calculation channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_DESTMASK">
+               <description>Calculation channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_RATEMODE">
+               <description>Calculation channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_SEQNUM">
+               <description>Calculation channel sequence engine</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH01_SEQBIT">
+               <description>Calculation channel sequence bit</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG05_SOURCE">
+               <description>Full rate calc trigger source</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG05_SYS0_TCTL">
+               <description>Full rate calc trigger NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG05_SYS0_TDES">
+               <description>Full rate calc trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG05_SYS2_TCTL">
+               <description>Full rate calc trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG05_SYS2_TDES">
+               <description>Full rate calc trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_SYS0_TCTL">
+               <description>Full rate calc channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_EVCODE">
+               <description>Full rate calc channel NC event code</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_SYS2_TCTL">
+               <description>Full rate calc channel SC enable</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_DESTMODE">
+               <description>Full rate calc channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_DESTMASK">
+               <description>Full rate calc channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_RATEMODE">
+               <description>Full rate calc channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH05_FIXEDRATE">
+               <description>Full rate calc channel fixed rate</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG11_SOURCE">
+               <description>Diag bus trigger source</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG11_SYS0_TCTL">
+               <description>Diag bus trigger NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG11_SYS0_TDES">
+               <description>Diag bus trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG11_SYS2_TCTL">
+               <description>Diag bus trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG11_SYS2_TDES">
+               <description>Diag bus trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_SYS0_TCTL">
+               <description>Diag bus channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_EVCODE">
+               <description>Diag bus channel NC event code</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_SYS2_TCTL">
+               <description>Diag bus channel SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_DESTMODE">
+               <description>Diag bus channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_DESTMASK">
+               <description>Diag bus channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_RATEMODE">
+               <description>Diag bus channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH11_FIXEDRATE">
+               <description>Diag bus channel fixed rate</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
             <pv name="TPR:FEES:GD02:0:TRG13_SOURCE">
                <description>Waveform trigger source</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
-            <pv name="TPR:FEES:GD02:0:CH13_SYS0_TCTL">
-               <description>Waveform channel enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
             <pv name="TPR:FEES:GD02:0:TRG13_SYS0_TCTL">
-               <description>Waveform trigger enabled</description>
-               <latching>False</latching>
-               <delay>0</delay>
-            </pv>
-            <pv name="TPR:FEES:GD02:0:CH13_EVCODE">
-               <description>Waveform event code</description>
+               <description>Waveform trigger NC enabled</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
             <pv name="TPR:FEES:GD02:0:TRG13_SYS0_TDES">
-               <description>Waveform trigger delay</description>
+               <description>Waveform trigger NC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG13_SYS2_TCTL">
+               <description>Waveform trigger SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:TRG13_SYS2_TDES">
+               <description>Waveform trigger SC delay</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_SYS0_TCTL">
+               <description>Waveform channel NC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_EVCODE">
+               <description>Waveform channel NC event code</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>
             <pv name="TPR:FEES:GD02:0:CH13_RATE">
                <description>Waveform event rate</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_SYS2_TCTL">
+               <description>Waveform channel SC enabled</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_DESTMODE">
+               <description>Waveform channel SC destination mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_DESTMASK">
+               <description>Waveform channel SC destination mask</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_RATEMODE">
+               <description>Waveform channel SC rate mode</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_SEQNUM">
+               <description>Waveform channel sequence engine</description>
+               <latching>False</latching>
+               <delay>0</delay>
+            </pv>
+            <pv name="TPR:FEES:GD02:0:CH13_SEQBIT">
+               <description>Waveform channel sequence bit</description>
                <latching>False</latching>
                <delay>0</delay>
             </pv>

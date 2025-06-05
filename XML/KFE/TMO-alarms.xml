@@ -332,88 +332,113 @@
                <latching>False</latching>
             </pv>
          </component>
-      </component>
-      <component name="DREAM">
-         <pv name="DREAM:COIL:FWM:VAL_RBV">
-            <description>dream coil flow sensor</description>
-            <latching>Flase</latching>
-         </pv>
-         <pv name="DREAM:MC:GHC:02:PRESS_RBV">
-            <description>dream main chamber pressure</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:MC:GHC:01:PRESS_RBV">
-            <description>dream main chamber pressure</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:NC:GCC:01">
-            <description>dream nozzle chamber pressure</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:01:TEMP_RBV">
-            <description>thermocouple_01 for spec feedthrough</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:02:TEMP_RBV">
-            <description>thermocouple_02 for MC-PTM-02</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:03:TEMP_RBV">
-            <description>thermocouple_03 for MC-PTM-01</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:04:TEMP_RBV">
-            <description>thermocouple_04 for sample paddel drift</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:05:TEMP_RBV">
-            <description>thermocouple_05 for n-coil water</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:06:TEMP_RBV">
-            <description>thermocouple_06 for s-coil water</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:07:TEMP_RBV">
-            <description>thermocouple_07 for SS-DET flange</description>
-            <latching>False</latching>
-         </pv>
-         <pv name="DREAM:STC:08:TEMP_RBV">
-            <description>thermocouple_08 for SS-DET feedthrough</description>
-            <latching>False</latching>
-         </pv>
-         <component name="ThermoCouple in User Panel">
+         <component name="Thermocouples in User Panel">
             <pv name="TMO:USR:BHC:TC:1">
                <description>thermocouple_01</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:1&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:2">
                <description>thermocouple_02</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:2&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:3">
                <description>thermocouple_03</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:3&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:4">
                <description>thermocouple_04</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:4&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:5">
                <description>thermocouple_05</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:5&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:6">
                <description>thermocouple_06</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:6&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:7">
                <description>thermocouple_07</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:7&lt;1370</filter>
             </pv>
             <pv name="TMO:USR:BHC:TC:8">
                <description>thermocouple_08</description>
                <latching>False</latching>
+               <filter>TMO:USR:BHC:TC:8&lt;1370</filter>
+            </pv>
+         </component>
+      </component>
+      <component name="DREAM">
+         <component name="Main Chamber Pressure">
+            <pv name="DREAM:MC:GHC:02:PRESS_RBV">
+               <description>dream main chamber pressure</description>
+               <latching>False</latching>
+               <filter>DREAM:MC:GHC:02:STATE_RBV == 5</filter>
+            </pv>
+            <pv name="DREAM:MC:GHC:01:PRESS_RBV">
+               <description>dream main chamber pressure</description>
+               <latching>False</latching>
+               <filter>DREAM:MC:GHC:01:STATE_RBV == 5</filter>
+            </pv>
+         </component>
+         <component name="Thermocouples">
+            <pv name="DREAM:NC:GCC:01:PRESS_RBV">
+               <description>dream nozzle chamber pressure</description>
+               <latching>False</latching>
+               <filter>DREAM:DP1:GHC:01:STATE_RBV == 5</filter>
+            </pv>
+            <pv name="DREAM:STC:01:TEMP_RBV">
+               <description>thermocouple_01 for spec feedthrough</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:01:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:02:TEMP_RBV">
+               <description>thermocouple_02 for MC-PTM-02</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:02:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:03:TEMP_RBV">
+               <description>thermocouple_03 for MC-PTM-01</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:03:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:04:TEMP_RBV">
+               <description>thermocouple_04 for sample paddel drift</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:04:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:05:TEMP_RBV">
+               <description>thermocouple_05 for n-coil water</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:05:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:06:TEMP_RBV">
+               <description>thermocouple_06 for s-coil water</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:06:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:07:TEMP_RBV">
+               <description>thermocouple_07 for SS-DET flange</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:07:TEMP_RBV&lt;1370</filter>
+            </pv>
+            <pv name="DREAM:STC:08:TEMP_RBV">
+               <description>thermocouple_08 for SS-DET feedthrough</description>
+               <latching>False</latching>
+               <filter>DREAM:STC:08:TEMP_RBV&lt;1370</filter>
+            </pv>
+         </component>
+         <component name="Coil flow sensor">
+            <pv name="DREAM:COIL:FWM:VAL_RBV">
+               <description>dream coil flow sensor</description>
+               <latching>Flase</latching>
             </pv>
          </component>
       </component>
