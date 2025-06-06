@@ -22,7 +22,7 @@
             <latching>False</latching>
             <delay>0</delay>
          </pv>
-         <pv name="EM2K0:XGMD:SHV:01:M0:C0:VoltageMeasureDiff">
+         <pv name="EM1K0:GMD:SHV:01:M0:C0:VoltageMeasureDiff">
             <description>Electron mesh voltage diff from set value</description>
             <latching>False</latching>
             <delay>0</delay>
@@ -37,7 +37,7 @@
             <latching>False</latching>
             <delay>0</delay>
          </pv>
-         <pv name="EM2K0:XGMD:SHV:01:M0:C1:VoltageMeasureDiff">
+         <pv name="EM1K0:GMD:SHV:01:M0:C1:VoltageMeasureDiff">
             <description>Electron FC voltage diff from set value</description>
             <latching>False</latching>
             <delay>0</delay>
@@ -52,7 +52,7 @@
             <latching>False</latching>
             <delay>0</delay>
          </pv>
-         <pv name="EM2K0:XGMD:SHV:01:M0:C14:VoltageMeasureDiff">
+         <pv name="EM1K0:GMD:SHV:01:M0:C14:VoltageMeasureDiff">
             <description>Ion mesh voltage diff from set value</description>
             <latching>False</latching>
             <delay>0</delay>
@@ -67,7 +67,7 @@
             <latching>False</latching>
             <delay>0</delay>
          </pv>
-         <pv name="EM2K0:XGMD:SHV:01:M0:C15:VoltageMeasureDiff">
+         <pv name="EM1K0:GMD:SHV:01:M0:C15:VoltageMeasureDiff">
             <description>Electron multiplier voltage diff from set value</description>
             <latching>False</latching>
             <delay>0</delay>
