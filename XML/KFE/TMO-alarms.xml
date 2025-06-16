@@ -1,6 +1,80 @@
 <?xml version="1.0" ?>
 <config name="TMO-alarms">
    <component name="TMO Beamline Devices">
+      <component name="MPODs">
+         <component name="MPOD01">
+            <pv name="TMO:MPOD:01:M0:isModuleGood">
+               <description>Module 0 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M1:isModuleGood">
+               <description>Module 1 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M2:isModuleGood">
+               <description>Module 2 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M3:isModuleGood">
+               <description>Module 3 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M4:isModuleGood">
+               <description>Module 4 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M5:isModuleGood">
+               <description>Module 5 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M6:isModuleGood">
+               <description>Module 6 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M7:isModuleGood">
+               <description>Module 7 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M8:isModuleGood">
+               <description>Module 8 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:01:M9:isModuleGood">
+               <description>Module 9 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+         </component>
+         <component name="MPOD02">
+            <pv name="TMO:MPOD:02:M0:isModuleGood">
+               <description>Module 0 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:02:M1:isModuleGood">
+               <description>Module 1 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:02:M2:isModuleGood">
+               <description>Module 2 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:02:M3:isModuleGood">
+               <description>Module 3 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:02:M4:isModuleGood">
+               <description>Module 4 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:02:M5:isModuleGood">
+               <description>Module 5 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+            <pv name="TMO:MPOD:02:M6:isModuleGood">
+               <description>Module 6 Fault Alarm</description>
+               <latching>False</latching>
+            </pv>
+         </component>
+      </component>
       <component name="Mirrors">
          <component name="MR1K4">
             <pv name="MR1K4:SOMS:FWM:1_RBV">
