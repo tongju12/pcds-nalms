@@ -658,5 +658,15 @@
             <latching>False</latching>
          </pv>
       </component>
+      <component name="PhotoEnergy Scan">
+         <pv name="eq://majorAlarm(abs(SIOC:SYS0:ML00:AO628-TMO:USER:MCC:EPHOTK:SET1)&gt;5, &quot;&quot;)">
+            <description>set value and read value does not match</description>
+            <latching>False</latching>
+         </pv>
+         <pv name="eq://minorAlarm(abs(SIOC:SYS0:ML00:AO628-TMO:USER:MCC:EPHOTK:SET1)&gt;2&amp;&amp;abs(SIOC:SYS0:ML00:AO628-TMO:USER:MCC:EPHOTK:SET1)&lt;5, &quot;&quot;)">
+            <description>set value and read value does not match</description>
+            <latching>False</latching>
+         </pv>
+      </component>
    </component>
 </config>
