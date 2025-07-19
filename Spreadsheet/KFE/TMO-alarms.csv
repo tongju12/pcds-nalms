@@ -185,5 +185,5 @@
 1,PhotoEnergy Scan,,,,,,
 ,,major://abs(SIOC:SYS0:ML00:AO628-TMO:USER:MCC:EPHOTK:SET1)>5,set value and read value does not match,FALSE,,,
 ,,minor://abs(SIOC:SYS0:ML00:AO628-TMO:USER:MCC:EPHOTK:SET1)>2&&abs(SIOC:SYS0:ML00:AO628-TMO:USER:MCC:EPHOTK:SET1)<5,set value and read value does not match,FALSE,,,
-,,major://abs(SIOC:SYS0:ML00:AO821-TMO:USER:MCC:EPHOTK:SET1)>5,set value and read value does not match as test,FALSE,,,
-,,minor://abs(SIOC:SYS0:ML00:AO821-TMO:USER:MCC:EPHOTK:SET1)>2&&abs(SIOC:SYS0:ML00:AO821-TMO:USER:MCC:EPHOTK:SET1)<5,set value and read value does not match as test,FALSE,,,
+,,major://abs(SIOC:SYS0:ML07:AO821-TMO:USER:MCC:EPHOTK:SET1)>5,set value and read value does not match as test,FALSE,,,
+,,minor://abs(SIOC:SYS0:ML07:AO821-TMO:USER:MCC:EPHOTK:SET1)>2&&abs(SIOC:SYS0:ML07:AO821-TMO:USER:MCC:EPHOTK:SET1)<5,set value and read value does not match as test,FALSE,,,
