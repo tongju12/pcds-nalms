@@ -87,27 +87,27 @@
             </pv>
          </component>
          <component name="PCW">
-            <pv name="FMS:MEC:S67A:PCW:TEMP">
+            <pv name="FMS:MEC:S67A:PCW:TEMP_RBV">
                <description>PCW Temperature</description>
                <latching>True</latching>
             </pv>
-            <pv name="FMS:MEC:TC:PCW:TEMP">
+            <pv name="FMS:MEC:TC:PCW:TEMP_RBV">
                <description>PCW Temperature</description>
                <latching>True</latching>
             </pv>
-            <pv name="FMS:MEC:S64A:PCW:TEMP">
+            <pv name="FMS:MEC:S64A:PCW:TEMP_RBV">
                <description>PCW Temperature</description>
                <latching>True</latching>
             </pv>
-            <pv name="FMS:MEC:LAS:RRK:PCW:TEMP">
+            <pv name="FMS:MEC:LAS:RRK:PCW:TEMP_RBV">
                <description>PCW Temperature</description>
                <latching>True</latching>
             </pv>
-            <pv name="FMS:MEC:SE:PCW:FWM:SUP">
+            <pv name="FMS:MEC:SE:PCW:SUP:FWM:VAL_RBV">
                <description>PCW Flow Supply</description>
                <latching>True</latching>
             </pv>
-            <pv name="FMS:MEC:SE:PCW:FWM:RET">
+            <pv name="FMS:MEC:SE:PCW:RET:FWM:VAL_RBV">
                <description>PCW Flow Return</description>
                <latching>True</latching>
             </pv>
