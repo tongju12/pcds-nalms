@@ -577,6 +577,68 @@
             <latching>False</latching>
          </pv>
       </component>
+      <component name="FEX Damage">
+         <pv name="pva://DAQ:TMO:HSD:1_1A:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_1A:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_1B:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_1B:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_3D:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_3D:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_3E:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_3E:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_01:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_01:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_DA:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_DA:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_B1:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_B1:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_B2:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_B2:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_88:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_88:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_89:A:FEXOOR">
+            <latching>False</latching>
+         </pv>
+         <pv name="pva://DAQ:TMO:HSD:1_89:B:FEXOOR">
+            <latching>False</latching>
+         </pv>
+      </component>
       <component name="SP1K4">
          <pv name="SP1K4:PPM:CAM:TSS:SyncStatus">
             <description>Camera Sync Status</description>
