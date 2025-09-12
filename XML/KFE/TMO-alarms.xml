@@ -199,8 +199,8 @@
             </pv>
          </component>
          <component name="IM2K4">
-            <pv name="IM2K4:PPM:FWM:VAL_RBV">
-               <description>Flow sensor</description>
+            <pv name="IM2K4:PPM:FSW:FLOW_OK_RBV">
+               <description>Flow switch</description>
                <latching>False</latching>
             </pv>
             <pv name="IM2K4:PPM:SPM:STC:TEMP_RBV">
